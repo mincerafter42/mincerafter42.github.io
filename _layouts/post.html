@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<article class="hentry">
+	<h1 class="title">{{ page.title }}</h1>
+	{% include post_meta.html post=page %}	
+	<div class="main">
+		{{ content }}
+	</div>
+</article>
+<nav class="post-navigation nav-links">
+	{% if page.previous %}
+	<div class="nav-previous"><a href="{{ page.previous.url }}">&#171; {{ page.previous.title }}</a></div>
+	{% endif %}
+	{% if page.next %}
+	<div class="nav-next"><a href="{{ page.next.url }}">{{ page.next.title }} &#187;</a></div>
+	{% endif %}
+</nav>

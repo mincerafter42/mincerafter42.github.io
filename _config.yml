@@ -1,0 +1,31 @@
+title: Vivi's blog
+description: "programmer, demigirl, mess"
+baseurl: ""
+url: "https://mincerafter42.github.io/"
+
+
+markdown: kramdown
+
+permalink: pretty
+
+gems:
+ - jekyll-paginate
+
+paginate: 5
+paginate_path: /archive/:num
+
+month_format: "%Y-%m" # used by my custom pseudo-month archive script
+
+defaults:
+ - 
+  scope:
+   path: ""
+   type: "pages"
+  values:
+   layout: "page"
+ - 
+  scope:
+   path: ""
+   type: "posts"
+  values:
+   layout: "post"

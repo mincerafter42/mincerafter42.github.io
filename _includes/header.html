@@ -1,0 +1,23 @@
+<header>
+	<nav id="skip" aria-label="Skip Links">
+		<a class="tab-shortcut" id="shortcut-content" href="#content">Skip to content</a>
+		<a class="tab-shortcut" id="shortcut-left-sidebar" href="#left">Skip to first sidebar</a>
+		<a class="tab-shortcut" id="shortcut-right-sidebar" href="#right">Skip to right sidebar</a>
+	</nav>
+	
+	<div id="header">
+		<a href="{{ site.url }}">
+			<div id="blog-name">{{ site.title }}</div>
+			<div id="blog-tagline">{{ site.description }}</div>
+		</a>
+	</div>
+	<nav id="header-menu", aria-label="Header menu">
+		<ul id="header-menu-content">
+			{% for item in site.data.header_menu %}
+				<li>
+					<a href="{{ item.link }}">{{ item.name }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</nav>
+</header>

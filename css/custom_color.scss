@@ -1,0 +1,116 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// change the colors below to change the theme colors
+$header-color: #d4008d;
+$content-color: #d4008d;
+$left-sidebar-color: #d4008d;
+$right-sidebar-color: #d4008d;
+$footer-color: #d4008d;
+// default is #58830a
+
+/*header coloring:*/
+#header {
+	background-color: $header-color;
+	border-color: $header-color scale-color($header-color, $lightness: -17%) scale-color($header-color, $lightness: -35%);
+}
+#header-menu-content a {
+	color: scale-color($header-color, $lightness: -50%);
+}
+#header-menu-content a:hover, #header-menu-content a:focus, #header-menu-content a:active {color: #000}
+
+/*content coloring:*/
+#shortcut-content {
+	color: $content-color;
+}
+.sticky {
+	background-image:linear-gradient(315deg, $content-color, 27px, transparent, 30px, transparent);
+}
+.meta {
+	border-color: scale-color($content-color, $lightness: -21%);
+}
+.index-type {
+	color: scale-color($content-color, $lightness: -21%);
+}
+.hentry .title a:link, .hentry .title a:visited, .hentry h1, .hentry h2, .hentry h3, .hentry h4, .hentry h5, .hentry h6 {
+	color: scale-color($content-color, $lightness: -21%);
+}
+.hentry .title a:hover, .hentry .title a:active, .hentry .title a:focus {
+	background-color: scale-color($content-color, $lightness: -21%);
+	color:#fff;
+}
+.hentry a:link, .readmore {
+	color: $content-color;
+}
+.hentry a:hover, .hentry a:active, .hentry a:focus {
+	background-color: $content-color;
+	color:#fff;
+}
+.is-style-outline .wp-block-button__link:hover, .is-style-outline .wp-block-button__link:focus, .is-style-outline .wp-block-button__link:active {
+	background-color: transparent;
+	border-color: $content-color;
+	color: $content-color;
+}
+.hentry code {
+	border-top-color: scale-color($content-color, $lightness: 50%);
+}
+
+.hentry .sticky .readmore a:link {
+	color: scale-color($content-color, $lightness: -21%);
+}
+.nav-links a {
+	color: scale-color($content-color, $lightness: -50%);
+}
+/*sidebar coloring:*/
+#shortcut-left-sidebar {
+	color: $left-sidebar-color;
+}
+#left h2 {
+	background-color: $left-sidebar-color;
+	border-color: scale-color($left-sidebar-color, $lightness: -50%);
+}
+#left li li {
+	color: scale-color($left-sidebar-color, $lightness: -35%)
+}
+#left {
+	background-image:linear-gradient(to bottom, change-color($left-sidebar-color, $alpha: 0.54), transparent, 95px, transparent);
+}
+#left a:hover, #left a:active, #left a:focus {
+	background-color: scale-color($left-sidebar-color, $lightness: -30%)
+}
+#left textarea:hover, #left button:hover, #left input:hover, #left select:hover, #left textarea:focus, #left button:focus, #left input:focus, #left select:focus, #left textarea:active, #left button:active, #left input:active, #left select:active {
+	border-color: scale-color($left-sidebar-color, $lightness: -21%);
+}
+
+#shortcut-right-sidebar {
+	color: $right-sidebar-color;
+}
+#right h2 {
+	background-color: $right-sidebar-color;
+	border-color: scale-color($right-sidebar-color, $lightness: -50%);
+}
+#right li li {
+	color: scale-color($right-sidebar-color, $lightness: -35%)
+}
+#right {
+	background-image:linear-gradient(to bottom, change-color($right-sidebar-color, $alpha: 0.54), transparent, 95px, transparent);
+}
+#right a:hover, #right a:active, #right a:focus {
+	background-color: scale-color($right-sidebar-color, $lightness: -30%)
+}
+#right textarea:hover, #right button:hover, #right input:hover, #right select:hover, #right textarea:focus, #right button:focus, #right input:focus, #right select:focus, #right textarea:active, #right button:active, #right input:active, #right select:active {
+	border-color: scale-color($right-sidebar-color, $lightness: -21%);
+}
+
+/*footer coloring:*/
+#footer {
+	background-color: $footer-color;
+	border-color: $footer-color scale-color($footer-color, $lightness: -17%) scale-color($footer-color, $lightness: -35%);
+}
+#footer-content {
+	color: scale-color($footer-color, $lightness: -95%);
+}
+#footer-content a {
+	color: scale-color($footer-color, $lightness: -95%);
+}
