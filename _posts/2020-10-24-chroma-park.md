@@ -7,7 +7,7 @@ In 2006, the developer Andreas Jacob released a WordPress theme.
 In 2008 (or 2009 depending on your timezone) Andreas released the final version of the theme.  
 <a href="https://cordobo.com/free-wordpress-templates/cordobo-green-park/">That theme was Green Park, and it never was updated after 2008... until now!</a>  
 
-<figure class="alignleft" style="width:201px"><img class="size-medium" src="https://mincerafter42.files.wordpress.com/2020/11/no-hotlinking-cordobo.com_.jpg" alt="A very small image showing a portion of a screen with bright greenish elements." width="201" height="149"> Andreas, what's up with this tiny image? I can barely see the theme at all, it might as well be in a foreign language!</figure>
+<figure class="alignleft" style="width:201px"><img class="size-medium" src="/assets/no hotlinking cordobo.com.jpg" alt="A very small image showing a portion of a screen with bright greenish elements." width="201" height="149"> Andreas, what's up with this tiny image? I can barely see the theme at all, it might as well be in a foreign language!</figure>
 
 In August of 2020, I, Vivi, began the process of improving Green Park!  
 I replaced its static images with CSS stylings, which reduced the overall file size and made the elements look just as good on wide displays or displays zoomed in. I also implemented customizable colors, so a user could choose any color they liked for the header, footer, content, and sidebars.  

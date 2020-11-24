@@ -467,6 +467,7 @@ input {
 .index-type {
 	margin: 15px;
 	font-size: 2em;
+	font-weight: bold;
 }
 
 .hentry {
