@@ -10,5 +10,7 @@ I'm a **demigirl**, meaning my gender is partially but not wholly feminine.
 I'm **asexual**, meaning I don't experience sexual attraction.  
 I'm **aromantic**, meaning I don't experience romantic attraction.
 
+Here on this blog you will find stuff that I do.
+
 ## Latest post: [{{ site.posts.first.title }}]({{ site.posts.first.url }})
 {% include post_meta.html post=site.posts.first %}
