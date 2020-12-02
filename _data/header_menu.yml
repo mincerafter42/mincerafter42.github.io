@@ -1,6 +1,12 @@
 -
+ name: Home
+ link: /
+-
  name: Archive
  link: /archive
 -
  name: Other Web Sites
  link: /other-web-sites
+-
+ name: Labels
+ link: /labels

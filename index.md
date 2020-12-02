@@ -6,11 +6,11 @@ Hi, I'm Vivi. That's short for Viatrix, and long for Vi. Or, the absolute shorte
 I'm also known as mincerafter42 on other platforms.
 
 My pronouns are she/her and they/them.  
-I'm a **demigirl**, meaning my gender is partially but not wholly feminine.  
-I'm **asexual**, meaning I don't experience sexual attraction.  
-I'm **aromantic**, meaning I don't experience romantic attraction.
+To learn more about my gender, and romantic & sexual orientation, [visit the Labels page](/labels), also available in the header menu.
 
-Here on this blog you will find stuff that I do.
+Here on this blog you will find stuff that I do! Some of it is quite random!
+
+You can use the links in the header menu, at the top of the page, to navigate around my blog.
 
 ## Latest post: [{{ site.posts.first.title }}]({{ site.posts.first.url }})
 {% include post_meta.html post=site.posts.first %}
