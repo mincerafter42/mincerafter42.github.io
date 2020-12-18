@@ -1,0 +1,8 @@
+<ul class="sub-menu">
+	{% for item in include.menu %}
+	<li{% if item.submenu %}class="menu-item-has-children"{% endif %}>
+		{% if item.link %}<a href="{{ item.link }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}
+		{% if item.submenu %}{% include submenu.html menu=item.submenu %}{% endif %}
+	</li>
+	{% endfor %}
+</ul>

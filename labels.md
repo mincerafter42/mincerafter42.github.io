@@ -13,6 +13,6 @@ Labels allow me to not explain in this much detail every time if you already kno
 * I'm **trans**, meaning my gender is not what people thought it was when I was born, because people make assumptions about babies' genders before the babies even know gender is a thing.
 
 ## How to get your own pride flag GIF
-You can't! Well, you can, but there isn't a large library of available flags or anything.  
+You can't! Well, you can, but there isn't a large library of templates for quick and easy assembly or anything.  
 The GIF was made entirely by _me!_ using [Gnu Image Manipulation Program](https://gimp.org) so you could use it or another image editor to make your own GIF.  
 ![This user is aromantic, a demigirl, trans, non-binary, and asexual.](/assets/ident-8831.gif)

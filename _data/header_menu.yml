@@ -11,5 +11,11 @@
  name: Labels
  link: /labels
 -
- name: Site Setup
- link: /site-setup
+ name: Sitely Content
+ submenu:
+ -
+  name: Site Setup
+  link: /site-setup
+ -
+  name: Link to Vivi's blog
+  link: /link-to-me
