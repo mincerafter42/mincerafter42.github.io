@@ -12,6 +12,7 @@
  link: /labels
 -
  name: Sitely Content
+ link: /sitely-content
  submenu:
  -
   name: Site Setup
