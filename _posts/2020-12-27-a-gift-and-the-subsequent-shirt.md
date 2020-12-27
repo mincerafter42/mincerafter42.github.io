@@ -9,7 +9,7 @@ For me, not all of the jokes in _Elvie_ land. Some of its jokes I find funny whi
 
 Eventually I encountered [the _Elvie_ #069 comic](http://peppertop.com/elvie/comic/elvie-069), which consists of many shirts with jokes. As with the comic in general, I don't find all of the shirts funny, but there's a lot of them here, and there was one shirt that I found so funny that I actually wanted to own a copy of the shirt.
 
-<span style="padding:1em;display:inline-block;background-color:#80b3ff;color:#501616;font-weight:bold;font-style:italic;font-family:serif">Web developers <br />
+<span style="padding:1em;display:inline-block;background-color:#80b3ff;color:#501616;font-weight:bold;font-style:italic;font-family:serif;text-align:center">Web developers <br />
 do it with <span style="color:#800000;font-family:monospace;font-style:normal">style</span> <br />
 (and <span style="color:#008000;font-family:monospace;font-style:normal">class</span>)</span>  
 (If you don't get it then perhaps you would benefit from an introductory guide to Cascading Style Sheets, which I have not provided.)
