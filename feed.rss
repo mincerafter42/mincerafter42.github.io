@@ -10,6 +10,11 @@ layout: null
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
+    <image>
+      <url>{{ "/assets/vivi-8831.png" | absolute_url }}</url>
+      <title>{{ site.title | xml_escape }}</title>
+      <link>{{ site.url }}{{ site.baseurl }}/</link>
+    </image>
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
