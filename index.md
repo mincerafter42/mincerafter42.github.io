@@ -2,8 +2,8 @@
 layout: page
 title: Home
 ---
-Hi, I'm Vivi. That's short for Viatrix, and long for Vi. Or, the absolute shortest, **V**.  
-I'm also known as mincerafter42 on other platforms.
+Hi, I'm Vivi. That's short for Viatrix, and long for Vi. Or, the absolute shortest, **V**. In the <abbr title="International Phonetic Alphabet">IPA</abbr> those are written as /vijɐtɻɪks/, /vivi/, /vi/ at least in my dialect.  
+I'm also known as mincerafter42 on other platforms, so you can call me mincerafter42, mincerafter, or mince.
 
 My pronouns are she/her and they/them.  
 To learn more about my gender, and romantic & sexual orientation, [visit the Labels page](/labels), also available in the header menu.
