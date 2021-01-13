@@ -27,5 +27,5 @@ Some RSS feeds you might want to start with:
 - [This very blog you are reading](/feed.rss)
 - [Moperville Monthly](https://anchor.fm/s/1053cd4c/podcast/rss) (I was on it once. Podcasts are a good use of the enclosure feature.)
 - [El Goonish Shive](https://www.egscomics.com/comic/rss), a webcomic I'm a fan of. Also has feeds for the [Newspaper section](https://www.egscomics.com/egsnp/rss) and [Sketchbook section.](https://www.egscomics.com/comic/rss)
-- [Elvie](http://peppertop.com/elvie/feed/), that comic I ordered the funny shirt from
+- [Elvie](http://peppertop.com/elvie/feed/), that comic with [that funny shirt I ordered](/2020/12/27/a-gift-and-the-subsequent-shirt)
 - [xkcd](https://xkcd.com/rss.xml) (xkcd's never been mentioned on my blog before, but it's a comic I follow)
