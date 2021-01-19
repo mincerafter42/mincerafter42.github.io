@@ -8,7 +8,7 @@ wow cool it's some labels!
 Labels allow me to not explain in this much detail every time if you already know a label's definition!
 * I'm **aromantic**, meaning I don't experience romantic attraction.
 * I'm **asexual**, meaning I don't experience sexual attraction.
-* I'm a **demigirl**, meaning my gender is partially but not wholly feminine. The remaining part of my gender is kind of _a void_
+* I'm a **demigirl**, meaning my gender is partially but not wholly feminine. The remaining part of my gender is kind of `null`
 * I'm **non-binary**, meaning my gender is neither 100% male or female 100% of the time. (Yes, there is some overlap between labels and that's OK!)
 * I'm **trans**, meaning my gender is not what people thought it was when I was born, because people make assumptions about babies' genders before the babies even know gender is a thing.
 
