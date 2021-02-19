@@ -34,6 +34,7 @@ function solveTriangle(A,B,C,a,b,c) { // given a triangle with angles A, B, C (d
 			else return "Not enough angles to solve";
 		case 1:
 			if (knownEdgeCount==1) return "Not enough angles to solve";
+			[a,b,c] = [a||Math.sqrt(b*b-c*c-2*c*b*Math.cos(A*degrees)),b||Math.sqrt(c*c-a*a-2*a*c*Math.cos(B*degrees)),c||Math.sqrt(a*a-b*b-2*a*b*Math.cos(C*degrees))]
 			const common = (Math.sin(A*degrees)/a)||(Math.sin(B*degrees)/b)||(Math.sin(C*degrees)/c); // use sine law to find 1 or 2 more angles
 			[A,B,C] = [A||(Math.asin(a*common)/degrees), B||(Math.asin(b*common)/degrees), C||(Math.asin(c*common)/degrees)];
 		case 2:
