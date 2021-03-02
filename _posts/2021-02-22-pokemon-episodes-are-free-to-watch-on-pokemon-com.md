@@ -1,6 +1,7 @@
 ---
 title: Pokémon episodes are free to watch on pokemon.com
 date: 2021-02-22 17:53:25 -0800
+tag: Programming
 ---
 You might know that [watch.pokemon.com](https://watch.pokemon.com) features Pokémon episodes free to watch. To my knowledge these are always the same episodes available on the Pokémon TV app, which I am unable to obtain.
 
