@@ -10,4 +10,6 @@ Luckily for people who agree with that statement, I've made yet another Chromium
 
 The extension is not very polished; for instance there's no progress indicator other than the large amount of console messages. This extension uses JSZip (not [my first time using JSZip](/2020/11/17/maybe-i-should-improve-the-ui-of-mcjar-font-getter), however this time instead of extracting a jar file I'm compressing an ora file.). The extension took me the entire day to make. Well I wasn't working the entire day, I slept some of the time, but it's surprisingly close to 24 hours since I started.
 
-You can [download the extension (30714 bytes)](/assets/Picrew Downloader (Chromium or Firefox extension).zip) here. No installation instructions this time. I'm too lazy to give installation instructions.
+You can [download the extension (30715 bytes)](/assets/Picrew Downloader (Chromium or Firefox extension).zip) here. No installation instructions this time. I'm too lazy to give installation instructions.
+
+Update: An issue has been fixed in which the OpenRaster files were generated with the same filename as the image maker's name, which could contain characters that were invalid in filenames. Now they are instead generated with the unique numeric ID.
