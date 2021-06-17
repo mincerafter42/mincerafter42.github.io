@@ -4,6 +4,7 @@ date: 2021-06-16 18:31:28 -0700
 ---
 Pronoun sets: They're often notated with slashes, such as in `she/her` or `he/they`. Some time in the past I saw a meme which pointed out using exclusively slashes between pronouns has some ambiguity, and offered some symbols that could be used less ambiguously (and then humour; such is the nature of memes).  
 But what if this notation were to be expanded and explicitly defined somewhere? I attempted to do that for some reason.
+
 ## The original meme
 ![multiple pronouns. she/they: ambiguous. she&they: use both, and switch it up often (bonus points for midsentence pronoun switch). she|they: choose any, they're all okay. she>they: she is best, but also cool with they. she\they: Windows file system. she☭they: our pronouns. she⊕they: I'm pretty sure these notes are for math class.](https://i.redd.it/qbvashrrsmm61.png)
 ## Pronoun-set notation specification (using <abbr title="augmented Backus-Naur form">ABNF</abbr>)
