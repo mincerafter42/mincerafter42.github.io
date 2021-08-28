@@ -7,7 +7,7 @@ This list may be incomplete. If there's a cool thing I did that I forgot about, 
 
 Presented in reverse chronological order.
 - [The webcomic Fillbert](https://mincerafter42.github.io/fillbert), an ongoing webcomic with slightly obscure Web technologies featuring this spherical cat and myself and my friends. First comic released 2021-05-24.
-- [The Picrew Downloader browser extension](https://github.com/mincerafter42/picrew-downloader), not vey polished but functional; downloads the layered images from Picrew in OpenRaster format. Released 2021-04-18.
+- [The Picrew Downloader browser extension](https://github.com/mincerafter42/picrew-downloader), not very polished but functional; downloads the layered images from Picrew in OpenRaster format. Released 2021-04-18.
 - I animated [a video about the PNG image format.](/assets/png.mp4). The script was text taken from the PNG website, was read by my friend flicky, and the music is by Kevin MacLeod, licensed under CC-BY. Published 2021-04-12.
 - I took the Computer Programming class in my high school, and here is the best work I did from there. These are all Python 3 programs from circa 2021-03.
   - A [text adventure game where you play as a dragon meeting a human](/assets/python-for-school/dragon, by vivi.py). The _example_ shown to the class was a game where the player character was a human, and the only two outcomes were a dragon sharing treasure with them or a dragon eating them. I expanded on that.
