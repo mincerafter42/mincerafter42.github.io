@@ -42,7 +42,7 @@ The magnitude of the rectangular component corresponding to the <b>second</b> ca
 Using the correspondences, determine which horizontal and which vertical cardinal direction will be used in the polar form.  
 Here the horizontal direction will always be first and the vertical direction will always be second, because it's easier.
 
-The vector's direction is: the absolute value of the tangent of (<var>î</var> divided by <var>ĵ</var>).
+The vector's direction is: the absolute value of the tangent of (<var>î</var> divided by <var>ĵ</var>).  
 The vector's magnitude is: the square root of (î² + ĵ²). (yes it's just the Pythagorean theorem again.)
 ## Conclusion
 bye
