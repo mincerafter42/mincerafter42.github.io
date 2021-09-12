@@ -4,11 +4,18 @@ permalink: /feed.rss/
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
+  <div xmlns="http://www.w3.org/1999/xhtml">
+    <style>channel{display:none} div{font-family:sans-serif}</style>
+    <p>This is a <b>Really Simple Syndication</b> feed. It can be used with a <b>feed reader</b> to notify you when a new post is published.
+    <br/>To exit, use your browser's Back button.</p>
+    <p>This feed is valid.<br/><a href="https://validator.w3.org/feed/check.cgi?url=https%3A//mincerafter42.github.io/feed.rss/"><img src="{{ '/assets/valid-rss.png' | xml_escape }}" alt="Valid RSS"/></a></p>
+  </div>
   <channel>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <link xmlns="http://www.w3.org/2005/Atom" href="{{page.url|absolute_url|xml_escape}}" rel="self" type="application/rss+xml"/>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     <image>
