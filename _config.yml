@@ -1,7 +1,7 @@
 title: Vivi's blog
 description: "programmer, demigirl, mess"
 baseurl: ""
-url: "https://mincerafter42.github.io/"
+url: "https://mincerafter42.github.io"
 timezone: America/Vancouver
 
 kramdown:
