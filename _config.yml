@@ -3,6 +3,7 @@ description: "programmer, demigirl, mess"
 baseurl: ""
 url: "https://mincerafter42.github.io"
 timezone: America/Vancouver
+encoding: "utf-8"
 
 kramdown:
  smart_quotes: "39,39,34,34"
