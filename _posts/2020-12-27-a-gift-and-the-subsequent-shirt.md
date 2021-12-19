@@ -17,6 +17,7 @@ do it with <span style="color:#800000;font-family:monospace;font-style:normal">s
 This shirt was not actually existing or for sale, but fortunately the <abbr title="Creative Commons Attribution ShareAlike">CC-BY-SA</abbr> license is completely fine with me copying and redistributing this shirt in the form of a shirt.
 
 I used the custom printing service [RedBubble](https://www.redbubble.com/) to order a shirt with that design (with attribution included of course, in accordance with the license). Redbubble allows users to sell the works they upload, but unfortunately I can't do so because I am unable to get paid, due to PayPal accounts requiring my nonexistent mobile phone number.  
-However, I can just distribute the image that I used so others can use it too. It is already the correct size for t-shirts on RedBubble; I don't know about other services' image size requirements.
+However, I can just distribute the image that I used so others can use it too. It is already the correct size for t-shirts on RedBubble; I don't know about other services' image size requirements.  
+<ins datetime="2021-12-18">After obtaining the shirt, the design was printed as expected; however, it appears to be slowly coming off instead of staying on the shirt.</ins>
 
 <a href="/assets/redbubble_shirt_size_style_and_class.png" download>Download image (144458 bytes)</a>
