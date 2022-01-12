@@ -299,7 +299,7 @@ interlace: bool."""
                         imageData = self.data
                 # lzw encoding
                 maxValue = max(self.data) # is this a good idea
-                lzwMin = (maxValue>128)+(maxValue>64)+(maxValue>32)+(maxValue>16)+(maxValue>8)+(maxValue>4)+2
+                lzwMin = (maxValue>=128)+(maxValue>=64)+(maxValue>=32)+(maxValue>=16)+(maxValue>=8)+(maxValue>=4)+2
                 lzwDict = [(i,) for i in range(1<<lzwMin)] + ["clear", "end"]
                 wordSize = lzwMin+1
                 words = 1<<lzwMin # initial clear code
