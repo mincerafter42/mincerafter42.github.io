@@ -1,0 +1,273 @@
+---
+permalink: /assets/gifthermal.c
+layout: none
+---
+{% raw %}#include <stdlib.h>
+#include <stdio.h>
+
+void copyBytes(FILE *inFile, FILE *outFile, int count) { // copy the specified number of bytes from inFile to outFile
+ for (int i=0;i<count;i++) fputc(fgetc(inFile),outFile);
+}
+
+void skipSubBlocks(FILE *inFile) {
+ while (1) {
+  int blockSize = fgetc(inFile);
+  if (blockSize==0) return;
+  else fseek(inFile, blockSize, SEEK_CUR);
+ }
+}
+
+void toSubBlocks(int word, int wordSize, FILE *outFile) {
+ static int bits = 0;
+ static int bitLen = 0;
+ static int subBlockSize = 0;
+ if (word==-1) { // reset
+  bits = 16;
+  bitLen = 5;
+  subBlockSize = 0;
+  fputc(255,outFile);
+ }
+ else {
+  bits |= word<<bitLen;
+  bitLen+=wordSize;
+  int size = 8;
+  if (word==17) size=0; // end code
+  while (bitLen>size) {
+   if (subBlockSize==255) {fputc(255,outFile);subBlockSize=0;} // marking beginning of new sub-blocks
+   fputc(bits&255, outFile);
+   bits>>=8;bitLen-=8;
+   subBlockSize++;
+  }
+ }
+ if (word==17) { // end of pixels
+  fseek(outFile, -1-subBlockSize, SEEK_CUR); // go to sub-block size indicator and change it to correct size
+  fputc(subBlockSize, outFile);
+  fseek(outFile, subBlockSize, SEEK_CUR);
+  fputc(0, outFile);
+ }
+}
+
+void outLzw(int numPixels, int numBits, FILE *outFile) {
+ static int lzwDict[4096][2] = {{-1,0},{-1,1},{-1,2},{-1,3},{-1,4},{-1,5},{-1,6},{-1,7},{-1,8},{-1,9},{-1,10},{-1,11},{-1,12},{-1,13},{-1,14},{-1,15}};
+ static int dictLen;
+ static int wordSize = 5;
+ static int largestMatch = -1;
+ if (numPixels<0) {
+  if (numBits<0) { // reset
+   dictLen=18;
+   wordSize = 5;
+   largestMatch = -1;
+   toSubBlocks(-1,0, outFile); // this will reset sub-blocks
+  }
+  else { // end of stream
+   toSubBlocks(largestMatch,wordSize, outFile);
+   if (dictLen==1<<wordSize) wordSize++;
+   toSubBlocks(17,wordSize, outFile);
+  }
+ }
+ else {
+  int efficiency = (numBits-(numBits%numPixels))/numPixels+1; // need to make sure math is done correctly with ints
+  for (int i=0;i<numPixels;i++) { // encode every pixel
+   int previousMatch = largestMatch;
+   for (int j=0;j<dictLen;j++) if (lzwDict[j][0]==largestMatch && lzwDict[j][1]==efficiency) {largestMatch = j;break;}
+   if (previousMatch==largestMatch) { // largest match has been found
+    toSubBlocks(largestMatch,wordSize, outFile);
+    if (dictLen<4096) {
+     lzwDict[dictLen][0]=largestMatch;
+     lzwDict[dictLen][1]=efficiency;
+     dictLen++;
+     if (dictLen>1<<wordSize) wordSize++;
+    } // implementing clear codes resulted in a *larger* file in my test case, so no clear codes
+    largestMatch = efficiency;
+   }
+  }
+ }
+}
+
+void inLzw(int byte, FILE *outFile) {
+ static int lzwMin;
+ static int lzwDict[4096];
+ static int dictLen;
+ static int bits;
+ static int bitLen;
+ static int wordSize;
+ static int word;
+ static int end = 0;
+ if (byte<0) { // reset
+  outLzw(-1,-1, outFile); // reset this too
+  lzwMin = -1-byte;
+  bits = 0;
+  bitLen = 0;
+  end = 0;
+  for (int i=0;i<4096;i++) {
+   if (i<1<<lzwMin) lzwDict[i]=1;
+   else if (i==1<<lzwMin) lzwDict[i]=-1;
+   else if (i-1==1<<lzwMin) lzwDict[i]=-2;
+   else lzwDict[i]=0;
+  }
+  dictLen = (1<<lzwMin)+2;
+  wordSize = lzwMin + 1;
+  word = -1;
+ }
+ else if (!end) {
+  bits |= byte<<bitLen;
+  bitLen += 8;
+  while (bitLen>wordSize) {
+   if (word>0 && dictLen<4096) {
+    lzwDict[dictLen] = word + 1;
+    dictLen++;
+   }
+   word = lzwDict[bits&(1<<wordSize)-1];
+   bits>>=wordSize;
+   bitLen-=wordSize;
+   switch (word) {
+    case -1: // CLEAR
+     dictLen = (1<<lzwMin)+2;
+     wordSize = lzwMin + 1;
+     break;
+    case -2: end = 1; break; // END
+    default: outLzw(word, wordSize, outFile);
+   }
+   if (dictLen==1<<wordSize && wordSize<12) wordSize++;
+  }
+ }
+}
+
+//lzw dictionary for input: array of 4096 ints. indicate length of the item. new items are 1 + previously used item.
+// lzw dictionary for output: 2d array of [4096][2]. first item is index of a previous item, and second item is the single value added to it
+
+int main(int argc, char *argv[]) { // i do not actually know much about C
+ if (argc!=3) {
+  printf("gifthermal: pseudo-thermal view of GIF compression efficiency.\n2022-015 by Vivi/mincerafter42\nUsage: %s input.gif output.gif\n", argv[0]);
+  return 1;
+ }
+ 
+ FILE* inFile = fopen(argv[1], "rb");
+ if (!inFile) {
+  printf("Failed to open %s\n", argv[1]);
+  exit(1);
+ }
+ 
+ // checking inFile has the GIF header
+ char const header87[] = "GIF87a";
+ char const header89[] = "GIF89a";
+ 
+ for (int i = 0,ch;i<6;i++) { // i have learned one does not simply compare strings in C
+  ch = fgetc(inFile);
+  if (ch!=header87[i] && ch!=header89[i]) {
+   printf("%s isn't a recognized GIF file.\n", argv[1]);
+   exit(1);  
+  }
+ }
+ 
+ FILE* outFile = fopen(argv[2], "wb");
+ if (!outFile) {
+  printf("Failed to open %s\n", argv[2]);
+  exit(1);
+ }
+ 
+ fputs(header89, outFile);
+ int gif89aFeatures = 0; // keep running count of 89a features to determine whether to use the 89a or 87a header at the end
+ 
+ copyBytes(inFile, outFile, 4); // width and height
+ int packed = fgetc(inFile);
+ fseek(inFile, 1, SEEK_CUR); // skip background colour index
+ fputc(0xf3, outFile); fputc(0, outFile); // global colour table of size 16, with index 0 as background colour
+ copyBytes(inFile, outFile, 1); // pixel aspect ratio
+ if (packed&128) fseek(inFile, 6<<(packed&7), SEEK_CUR); // skip global colour table
+ 
+ int const heatmapColours[] = { 0, 0, 0,
+  0x00,0x05,0x60,
+  0x02,0x3D,0x9A,
+  0x00,0x5F,0xD3,
+  0x01,0x86,0xC0,
+  0x4A,0xB0,0x3D,
+  0xB5,0xD0,0x00,
+  0xEB,0xD1,0x09,
+  0xFB,0xA7,0x0F,
+  0xEE,0,0,
+  0xD0,0,0,
+  0xb2,0,0,
+  0x95,0,0,
+  0x77,0,0,
+  0,0,0,
+  0,0,0 };
+ for (int i = 0; i < 16*3; i++) fputc(heatmapColours[i], outFile); // can't use fputs because of the zero bytes
+ int reachedEnd = 0;
+ while (reachedEnd==0) { // iterating through the blocks
+  int type = fgetc(inFile);
+  switch(type) {
+   case 0x2c: // image
+    fputc(0x2c,outFile);
+    copyBytes(inFile, outFile, 8); // width and height
+    int packedI = fgetc(inFile);
+    fputc(0, outFile); // change to packed&64 to preserve interlacing; pngthermal always disables interlacing
+    //fputc(packedI&64, outFile);
+    if (packedI&128) fseek(inFile, 6<<(packedI&7), SEEK_CUR); // skip local colour table
+    fputc(4, outFile); // initial code size
+    
+    inLzw(-1 - fgetc(inFile), outFile); // reset lzw encoder and decoder, get initial code size
+    while(1) { // go through entire image
+     int blockSize = fgetc(inFile);
+     if (blockSize==0) break;
+     else for (int i=0;i<blockSize;i++) inLzw(fgetc(inFile), outFile);   
+    }
+    outLzw(-1,0, outFile); // indicate end of stream
+    break;
+
+   case 0x21: { // extension
+    switch (fgetc(inFile)) {
+     case 0xf9: {
+      // check if next block is image
+      long int graphicControlPos = ftell(inFile);
+      skipSubBlocks(inFile);
+      if (fgetc(inFile)==0x2c) { // next block *is* image
+       gif89aFeatures++;
+       fputs("\x21\xf9\x04\x08", outFile); // graphic control extension, disposal method 2 (restore to background colour)
+       fseek(inFile, graphicControlPos+2, SEEK_SET);
+       copyBytes(inFile, outFile, 2); // delay time
+       fseek(inFile, 2, SEEK_CUR); // pass block terminator
+       fputc(0,outFile);fputc(0,outFile); // transparency index and block terminator
+      }
+     }
+      break;
+     case 0xff: { // application extension, copy only if animation
+      char const animHeader[] = "\x0bNETSCAPE2.0\x03\x01";
+      int equal = 1;
+      for (int i=0;i<14;i++) if (fgetc(inFile)!=animHeader[i]) equal = 0;
+      if (equal) {
+       fputs("\x21\xff", outFile);
+       fputs(animHeader, outFile);
+       copyBytes(inFile, outFile, 2);
+       fputc(0, outFile);
+      }
+      else fseek(inFile, -14, SEEK_CUR);
+     }
+     default: skipSubBlocks(inFile);
+    }
+    break;
+   }
+   case EOF:
+    if (ferror(inFile)) {
+     printf("Error reading %s\n",argv[1]);
+     fclose(outFile); remove(argv[2]); exit(1);
+    }
+
+   case 0x3b: // trailer, end of file
+    reachedEnd = 1;
+    break;
+
+   default:
+    printf("Unknown block %X\n", type);
+    fclose(outFile);
+    remove(argv[2]);
+    exit(1);
+  }
+ }
+ fputc(0x3b,outFile); // add trailer to outFile
+ if (!gif89aFeatures) { // change to 87a if no 89a features
+  fseek(outFile, 4, SEEK_SET);
+  fputc('7',outFile);
+ }
+ fclose(inFile); fclose(outFile); return 0; // successfully closes files
+}{% endraw %}
