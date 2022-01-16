@@ -48,7 +48,7 @@ void toSubBlocks(int word, int wordSize, FILE *outFile) {
 }
 
 void outLzw(int numPixels, int numBits, FILE *outFile) {
- static int lzwDict[4096][2] = {{-1,0},{-1,1},{-1,2},{-1,3},{-1,4},{-1,5},{-1,6},{-1,7},{-1,8},{-1,9},{-1,10},{-1,11},{-1,12},{-1,13},{-1,14},{-1,15}};
+ static int lzwDict[4096][2] = {{-1,0},{-1,1},{-1,2},{-1,3},{-1,4},{-1,5},{-1,6},{-1,7},{-1,8},{-1,9},{-1,10},{-1,11},{-1,12},{-1,13},{-1,14},{-1,15},{-2,-2},{-2,-2}};
  static int dictLen;
  static int wordSize = 5;
  static int largestMatch = -1;
@@ -66,7 +66,7 @@ void outLzw(int numPixels, int numBits, FILE *outFile) {
   }
  }
  else {
-  int efficiency = (numBits-(numBits%numPixels))/numPixels+1; // need to make sure math is done correctly with ints
+  int efficiency = (numBits-(numBits%numPixels))/numPixels; // need to make sure math is done correctly with ints
   for (int i=0;i<numPixels;i++) { // encode every pixel
    int previousMatch = largestMatch;
    for (int j=0;j<dictLen;j++) if (lzwDict[j][0]==largestMatch && lzwDict[j][1]==efficiency) {largestMatch = j;break;}
@@ -172,11 +172,11 @@ int main(int argc, char *argv[]) { // i do not actually know much about C
  copyBytes(inFile, outFile, 4); // width and height
  int packed = fgetc(inFile);
  fseek(inFile, 1, SEEK_CUR); // skip background colour index
- fputc(0xf3, outFile); fputc(0, outFile); // global colour table of size 16, with index 0 as background colour
+ fputs("\xf3\x0f", outFile); // global colour table of size 16, with index 15 as background colour
  copyBytes(inFile, outFile, 1); // pixel aspect ratio
  if (packed&128) fseek(inFile, 6<<(packed&7), SEEK_CUR); // skip global colour table
  
- int const heatmapColours[] = { 0, 0, 0,
+ int const heatmapColours[] = {
   0x00,0x05,0x60,
   0x02,0x3D,0x9A,
   0x00,0x5F,0xD3,
@@ -190,6 +190,7 @@ int main(int argc, char *argv[]) { // i do not actually know much about C
   0xb2,0,0,
   0x95,0,0,
   0x77,0,0,
+  0,0,0,
   0,0,0,
   0,0,0 };
  for (int i = 0; i < 16*3; i++) fputc(heatmapColours[i], outFile); // can't use fputs because of the zero bytes
