@@ -305,12 +305,12 @@ interlace: bool."""
                 words = 1<<lzwMin # initial clear code
                 lzwPackedCount = wordSize # number of bits that have been packed so far, because reasons
                 while imageData:
-                        leng = 2
-                        while tuple(imageData[:leng]) in lzwDict and leng < len(imageData): leng += 1
-                        words |= lzwDict.index(tuple(imageData[:leng-1]))<<lzwPackedCount
+                        leng = 1
+                        while tuple(imageData[:leng+1]) in lzwDict and leng < len(imageData): leng += 1
+                        words |= lzwDict.index(tuple(imageData[:leng]))<<lzwPackedCount
                         lzwPackedCount += wordSize
-                        lzwDict.append(tuple(imageData[:leng]))
-                        imageData = imageData[leng-1:]
+                        lzwDict.append(tuple(imageData[:leng+1]))
+                        imageData = imageData[leng:]
                         if len(lzwDict)>1<<wordSize:
                                 if wordSize<12: wordSize += 1
                                 else: # clear (because it's before 1991-01 /s)
@@ -318,7 +318,7 @@ interlace: bool."""
                                         lzwPackedCount += wordSize
                                         lzwDict = [(i,) for i in range(1<<lzwMin)] + ["clear", "end"]
                                         wordSize = lzwMin+1
-                words |= (lzwMin+1)<<lzwPackedCount # end code
+                words |= ((1<<lzwMin)+1)<<lzwPackedCount # end code
                 lzwPackedCount += wordSize
                 lzwData = words.to_bytes((lzwPackedCount-1)//8+1,"little")
                 byteData += lzwMin.to_bytes(1,"big")
