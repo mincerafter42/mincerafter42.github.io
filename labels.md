@@ -6,7 +6,7 @@ Hi! If you're here, you might have noticed [my snazzy pride flag GIF](/assets/id
 ## Label definitions
 wow cool it's some labels!  
 Labels allow me to not explain in this much detail every time if you already know a label's definition!
-* I'm **aro-spec**, which is an abbreviation for I am on the aromantic spectrum; I experience little to no romantic attraction, having experienced it for either 0 or 1 person. The person is my girlfriend and we love each other very much regardless of what type of attraction this is.
+* I'm **aro-spec**, which is an abbreviation for I am on the aromantic spectrum; I experience little to no romantic attraction, having experienced it approximately once.
 * I'm **asexual**, meaning I don't experience sexual attraction.
 * I'm a **demigirl**, meaning my gender is partially but not wholly feminine. The remaining part of my gender is kind of `null`
 * I'm **non-binary**, meaning my gender is neither 100% male or female 100% of the time. (Yes, there is some overlap between labels and that's OK!)
