@@ -6,6 +6,7 @@ I've made some cool stuff. But it's like scattered everywhere. Here I tried to c
 This list may be incomplete. If there's a cool thing I did that I forgot about, let me know I guess.
 
 Presented in reverse chronological order.
+- [gifthermal](/2022/01/15/gifthermal.c), a tool to visualize the compression efficiency of GIF images, inspired by pngthermal. Published 2022-01-15.
 - [The webcomic Fillbert](https://mincerafter42.github.io/fillbert), an ongoing webcomic with slightly obscure Web technologies featuring this spherical cat and myself and my friends. First comic released 2021-05-24.
 - [The Picrew Downloader browser extension](https://github.com/mincerafter42/picrew-downloader), not very polished but functional; downloads the layered images from Picrew in OpenRaster format. Released 2021-04-18.
 - I animated [a video about the PNG image format.](/assets/png.mp4). The script was text taken from the PNG website, was read by my friend flicky, and the music is by Kevin MacLeod, licensed under CC-BY. Published 2021-04-12.
