@@ -2,7 +2,7 @@
 layout: null
 ---
 {
-	"version":"https://www.jsonfeed.org/version/1.1/",
+	"version":"https://www.jsonfeed.org/version/1.1",
 	"title":{{site.title|jsonify}},
 	"home_page_url":{{"/"|absolute_url|jsonify}},
 	"feed_url":{{page.url|absolute_url|jsonify}},
