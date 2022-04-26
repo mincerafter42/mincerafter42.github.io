@@ -4,7 +4,7 @@ title: Other Web Sites
 On this page you can find links to other websites. These are in fact not my websites. They are the websites of other people, which I am listing here because of some connection to them, even if the connection is just "I think this website is cool". This is not a complete comprehensive list of websites I think are cool.
 
 And now, a message from _the future!_ (relative to when this page was first made):  
-I added buttons linking to these sites in the sidebar. Only TCoD already had a button so I made the rest.
+I added buttons linking to some of these sites in the sidebar.
 
 - ## [Maplestrip's Maple Tree](http://maplestrip.space)
 [![](http://maplestrip.space/Haruhi49.gif)](http://maplestrip.space)  
@@ -15,3 +15,5 @@ I added buttons linking to these sites in the sidebar. Only TCoD already had a b
 - ## [The Cave of Dragonflies](https://dragonflycave.com)
 [![](/assets/caveofdragonflies-banner.jpg)](https://dragonflycave.com)  
 **The Cave of Dragonflies** is a website I found in the early 2010s. It is very much a Pokémon website, with info about Pokémon games as well as interactive content utilising the power of JavaScript, and a bit about websites themselves. This was great for early-2010s me because they lived and breathed Pokémon. Breathing Pokémon may have been unhealthy for my respiratory system.
+- ## [Ultimate List of ASCII Art Sites](https://web.archive.org/web/20010406061744/http://www.geocities.com:80/SoHo/2695/links.htm) (circa 2000)
+A cool piece of Internet history.
