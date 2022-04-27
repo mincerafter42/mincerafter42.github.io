@@ -5,7 +5,7 @@ title: Home
 Hi, I'm Vivi. That's short for Viatrix, and long for Vi. Or, the absolute shortest, **V**. In the <abbr title="International Phonetic Alphabet">IPA</abbr> those are written as /vijɐtɻɪks/, /vivi/, /vi/ at least in my dialect.  
 I'm also known as mincerafter42 on other platforms, so you can call me mincerafter42, mincerafter, or mince.
 
-My pronouns are she|they. (she/her or they/them are both ok; you can use either.) [![I'm aro-spec, a demigirl, trans, non-binary, and asexual.](/assets/ident-8831.gif)](/labels)
+My pronouns are she\|they. (she/her or they/them are both ok; you can use either.) [![I'm aro-spec, a demigirl, trans, non-binary, and asexual.](/assets/ident-8831.gif)](/labels)
 
 Some things I like:
 - I like making cool stuff digitally. (Things like programs, images, audio, just anything that's cool and that I have the capacity to make)
