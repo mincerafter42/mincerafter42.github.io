@@ -7,6 +7,10 @@
 -
  name: Other Web Sites
  link: /other-web-sites
+ submenu:
+ -
+  name: Webcomics
+  link: /webcomics
 -
  name: Labels
  link: /labels
