@@ -10,6 +10,10 @@ My pronouns are she\|they. (she/her or they/them are both ok; you can use either
 Some things I like:
 - I like making cool stuff digitally. (Things like programs, images, audio, just anything that's cool and that I have the capacity to make)
 - I like cuddles.
+  <aside markdown=1>
+  This site is part of the [Cuddler Webring](https://cuddler-webring.netlify.app/index).  
+  [«Previous](https://cuddler-webring.netlify.app/mincerafter42/previous) \| [Next»](https://cuddler-webring.netlify.app/mincerafter42/next)
+  </aside>
 - I have very casual interests in home textile crafts.
 - I enjoy linguistics recreationally (and who doesn't these days, am I right? no; it's likely i'm just in a bubble of recreational linguists).
 - The World Wide Web is vast and expansive, and I like it when I find cool pages I'm interested in.
