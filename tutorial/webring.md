@@ -8,6 +8,11 @@ title: How to make a webring
 That's not good; JavaScript should have a fallback as gracefully as possible, and "nonfunctional" is not a graceful fallback.  
 To counter this, I'm making my own webring tutorial. This is based on the framework I built for my Cuddler Webring.
 
+<aside>
+This tutorial is sadgrl approved.<br>
+<q>you def should [make this tutorial] because my method is awful lmao</q> -sadgrl, 2022-05-23
+</aside>
+
 For this tutorial, you need a <b>GitHub account</b> and a <b>Netlify account</b>.
 Netlify also supports GitLab, BitBucket, and Azure DevOps, so you can use one of those instead, but some URLs may need to change.  
 It is helpful but not necessary to be familiar with [Jekyll](https://jekyllrb.com/).
