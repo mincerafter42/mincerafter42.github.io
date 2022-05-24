@@ -78,7 +78,7 @@ Change the lines after the first line to your members' information, using the [c
 ~~~
 This is mostly recognizable as HTML, with some key differences. Jekyll uses the <b>front matter</b> (those hyphen-minuses at the beginning) to indicate that it should parse the file.
 Jekyll will interpret the instructions between the `{{` and `}}`, and replace them with the result.  
-This is a <i>layout</i>, because this is markup we want used more than once.  
+This is a <i>layout</i>, markup we want used more than once.  
 If your webring is in a language other than English, you should update the `lang=en` accordingly.
 
 ### index.md
@@ -190,5 +190,5 @@ Publish directory
 
 If all goes well, you should see your webring when you navigate to your domain, and each member will be able to use their links as described!
 
-If your GitHub repository is still private, make sure to set it to public now.
+If your GitHub repository is still private, make sure to set it to public if you want users to be able to join via pull request.
 {%endraw%}
