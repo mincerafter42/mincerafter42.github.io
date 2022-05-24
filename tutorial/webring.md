@@ -97,7 +97,7 @@ If your webring is in a language other than English, you should update the `lang
     - <a href="{{member.url | xml_escape}}" markdown=0>{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
 
 You should most certainly replace the placeholder text there.  
-This file is a Markdown file. Jekyll will first follow the instructions it's given between the `{%` and  `%}`, and between the `{{` and `}}`,
+This file is a [Markdown](https://daringfireball.net/projects/markdown/syntax) file. Jekyll will first follow the instructions it's given between the `{%` and  `%}`, and between the `{{` and `}}`,
 then convert the file from Markdown to HTML, then apply the `html` layout to it.  
 The for loop at the end of the page prints a list of all the members from `_data/members.csv`.
 
