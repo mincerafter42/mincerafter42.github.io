@@ -2,19 +2,20 @@
 title: How to make a webring
 ---
 ## (With no JavaScript whatsoever, using Github, Jekyll, and Netlify)
-![]({{'/assets/goldring.gif'|relative_url}})
+<aside>
+<img src="/assets/goldring.gif" alt="" style="float:left"/>
+This tutorial is sadgrl approved.<br/>
+<q>you def should [make this tutorial] because my method is awful lmao</q><br/>-sadgrl, 2022-05-23
+</aside>
 
 [Webrings](https://en.wikipedia.org/wiki/Webring) are cool! However, I notice some webring tutorials are entirely dependent on JavaScript to make the webring function.
 That's not good; JavaScript should have a fallback as gracefully as possible, and "nonfunctional" is not a graceful fallback.  
 To counter this, I'm making my own webring tutorial. This is based on the framework I built for my Cuddler Webring.
 
-<aside>
-This tutorial is sadgrl approved.<br>
-<q>you def should [make this tutorial] because my method is awful lmao</q> -sadgrl, 2022-05-23
-</aside>
-
 For this tutorial, you need a <b>GitHub account</b> and a <b>Netlify account</b>.
-Netlify also supports GitLab, BitBucket, and Azure DevOps, so you can use one of those instead, but some URLs may need to change.  
+Netlify also supports GitLab, BitBucket, and Azure DevOps, so you can use one of those instead, but some URLs may need to change.
+This tutorial assumes you want users to be able to join via pull request, but if you don't, you could keep the repository on Netlify itself.  
+**It is very helpful to be familiar with HTML.**  
 It is helpful but not necessary to be familiar with [Jekyll](https://jekyllrb.com/).
 
 Create a <b>GitHub repository</b> (it can be private so you can experiment around with stuff!).
@@ -81,24 +82,27 @@ Jekyll will interpret the instructions between the `{{` and `}}`, and replace th
 This is a <i>layout</i>, markup we want used more than once.  
 If your webring is in a language other than English, you should update the `lang=en` accordingly.
 
-### index.md
+### index.html
     ---
     title: Insert Title Here
     layout: html
     ---
-    # Insert Heading Here
-    Insert a description of the webring here. Maybe link to an explanation of what a [webring](https://en.wikipedia.org/wiki/Webring) is.  
-    Perhaps link to a page explaining how to [join the webring]({{'/join'|relative_url}}) (shown later in the tutorial)
+    <h1>Insert Heading Here</h1>
+    <p>Insert a description of the webring here. Maybe link to an explanation of what a <a href=https://en.wikipedia.org/wiki/Webring>webring</a> is.<br>
+    Perhaps link to a page explaining how to <a href="{{'/join'|relative_url}}">join the webring</a> (shown later in the tutorial)
     
-    If the ring is broken, please [submit an error report on GitHub]({{site.github_repo_url}}/issues/new).
+    <p>If the ring is broken, please <a href={{site.github_repo_url}}/issues/new>submit an error report on GitHub</a>.
     
-    ## Members ({{site.data.members.size}}) {#members}
+    <h2 id=members>Members ({{site.data.members.size}})</h2>
+    <ul>
     {% for member in site.data.members %}
-    - <a href="{{member.url | xml_escape}}" markdown=0>{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
+    <li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
+    </ul>
 
 You should most certainly replace the placeholder text there.  
-This file is a [Markdown](https://daringfireball.net/projects/markdown/syntax) file. Jekyll will first follow the instructions it's given between the `{%` and  `%}`, and between the `{{` and `}}`,
-then convert the file from Markdown to HTML, then apply the `html` layout to it.  
+This HTML file has front matter, which specifies a title and that it uses the `html` layout.
+Jekyll will first follow the instructions it's given between the `{%` and  `%}`, and between the `{{` and `}}`,
+then apply the `html` layout to it.  
 The for loop at the end of the page prints a list of all the members from `_data/members.csv`.
 
 ### _redirects
@@ -118,30 +122,32 @@ The for loop at the end of the page prints a list of all the members from `_data
 
 This file is what gives the webring its actual ring functionality. For every `slug` in `_data/members.csv`, Netlify will redirect `/slug/next` and `/slug/previous` to the next and previous `url`s.
 
-### join.md (if you want users to be able to join)
-~~~md
+### join.html (if you want users to be able to join)
+~~~html
 ---
 title: How to Join
 layout: html
 ---
-# Insert a relevant h1 here
-## Criteria to join
-- Insert the criteria to join the webring here.
-- I suggest a policy on clearly marking any NSFW content.
-- and having no hate speech or bigotry.
-- and not being advertisement-focused.
+<h1>Insert a relevant h1 here</h1>
+<h2>Criteria to join</h2>
+<ul>
+<li>Insert the criteria to join the webring here.
+<li>I suggest a policy on clearly marking any NSFW content.
+<li>and having no hate speech or bigotry.
+<li>and not being advertisement-focused.
+</ul>
 
 <small>It is impossible to enumerate everything that is not allowed. For this reason, we (the webmasters) reserve the right to remove a site if we feel it is outside of our own personal bounds.</small>
 
-## Add yourself to the members list
-Add a unique slug, your webpage's name, and your webpage's URL to [the members list on GitHub]({{site.github_repo_url}}/blob/main/_data/members.csv) in a pull request.  
+<h2>Add yourself to the members list</h2>
+<p>Add a unique slug, your webpage's name, and your webpage's URL to <a href={{site.github_repo_url}}/blob/main/_data/members.csv>the members list on GitHub</a> in a pull request.<br>
 Pull requests can also be used to change your existing entry or delete your entry.
 
 <details>
 <summary>If you don't have a GitHub account, fill out this form instead:</summary>
 <form name=signup method=POST data-netlify=true netlify-honeypot=bot>
 <div hidden><label>Leave this blank unless you're spam <input name=bot></label></div>
-<label>Slug <input name=slug pattern="[0-9a-z](?:-?[0-9a-z])*" required></label>
+<label>Slug <input name=slug pattern=[0-9a-z](?:-?[0-9a-z])* required></label>
 (ASCII lowercase letters, digits, and hyphen-minuses)<br>
 <label>Name <textarea name=name></textarea></label><br>
 <label>URL <input name=url type=url></label><br>
@@ -150,10 +156,10 @@ Pull requests can also be used to change your existing entry or delete your entr
 If you're editing your existing entry, make sure to use the same slug. If you're deleting your existing entry, leave the URL field blank.
 </details>
 
-## Add links on your webpage
-Once you're on the members list, add links on your webpage to<b>{{'/YOUR-SLUG/next'|absolute_url}}</b> and <b>{{'/YOUR-SLUG/previous'|absolute_url}}</b>, replacing <b>YOUR-SLUG</b> with the slug you chose.  
-Feel free to include a link to <b>{{'/'|absolute_url}}</b> as well.  
-Check if [the `<aside>` element](https://html.spec.whatwg.org/dev/sections.html#the-aside-element) is right for you.
+<h2>Add links on your webpage</h2>
+<p>Once you're on the members list, add links on your webpage to <b>{{'/YOUR-SLUG/next'|absolute_url}}</b> and <b>{{'/YOUR-SLUG/previous'|absolute_url}}</b>, replacing <b>YOUR-SLUG</b> with the slug you chose.<br>
+Feel free to include a link to <b>{{'/'|absolute_url}}</b> as well.<br>
+Check if <a href=https://html.spec.whatwg.org/dev/sections.html#the-aside-element>the <code>&lt;aside&gt;</code> element</a> is right for you.
 ~~~
 This is a page instructing users how to join.  
 Users are given a link to the members list on GitHub, or, if they don't have a GitHub account,
@@ -162,14 +168,14 @@ Users are then told which links to add to their webpage, and informed about the 
 because I think the `<aside>` element is important for webring members to know about.
 
 Of course you can change this file in any way you want, just like the others.
-### 404.md (optional)
+### 404.html (optional)
 
     ---
     title: Not Found
     layout: html
     ---
-    # 404 Not Found
-    If you got here by clicking a link, somebody didn't configure their part of the webring correctly, and [submitting an error report on GitHub]({{site.github_repo_url}}/issues/new) is recommended.
+    <h1>404 Not Found</h1>
+    <p>If you got here by clicking a link, somebody didn't configure their part of the webring correctly, and <a href={{site.github_repo_url}}/issues/new>submitting an error report on GitHub</a> is recommended.
 
 This page will be displayed if a user tries to access a page which doesn't exist. In that case, they'll be told to submit an error report.
 If you don't include this file, users who try to access nonexistent pages will just be shown Netlify's default Not Found page.
@@ -190,5 +196,5 @@ Publish directory
 
 If all goes well, you should see your webring when you navigate to your domain, and each member will be able to use their links as described!
 
-If your GitHub repository is still private, make sure to set it to public if you want users to be able to join via pull request.
+If your GitHub repository is still private, make sure to set it to public now.
 {%endraw%}
