@@ -18,6 +18,13 @@ Do I only have one friend with a website?
 My friend Maplestrip. We both read the webcomic El Goonish Shive (found in this very list) and have recorded together on a few podcast episodes.
 
 ## Useful utilities
+Likely require Javascript and eyes.
+
+- [jisho](https://jisho.org) when you gotta figure out what some japanese text says
+- [RegEx Pal](https://regexpal.com) regex tester and cheat sheet
+- [whois querier](https://www.bgreco.net/whois) (if you have Unix/Linux you can just use the `whois` command instead)
+
+### Installable software
 Unless indicated otherwise, software is free, libre, and available on Linux, Windows, and MacOS.
 
 - [Claws Mail](https://www.claws-mail.org/), a small and barebones e-mail client (Linux & Windows only)
