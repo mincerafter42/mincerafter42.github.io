@@ -3,7 +3,7 @@ title: Digital Creations
 layout: default
 ---
 # Digital Stuff I've Made
-{:no_toc}
+{:.no_toc}
 I've made some cool stuff digitally. Here I've tried to collect it all into an easy-to-read page.
 
 This list may be incomplete. If there's a cool thing I did that I forgot about, [let me know](/contact) I guess.
