@@ -1,6 +1,6 @@
 ---
 title: No Setup Syndication is ready
-tag: Programming
+tags: Programming nss
 date: 2021-01-12 19:03:15 -0800
 ---
 Remember No Setup Syndication, my RSS feed reader extension for Chromium and Firefox? It is now done! Or at least in a state I consider done!

@@ -1,5 +1,6 @@
 ---
 title: How to make a webring
+last_modified_at: 2022-05-25
 ---
 ## (With no JavaScript whatsoever, using Github, Jekyll, and Netlify)
 <aside>
@@ -22,18 +23,18 @@ Create a <b>GitHub repository</b> (it can be private so you can experiment aroun
 
 ## Files you need in the repository
 
-### Gemfile
+### `Gemfile`
 
     source "https://rubygems.org"
     gem 'jekyll'
 
-### .ruby-version
+### `.ruby-version`
 
     2.4.3
 
 These are just mandatory files Netlify needs to be able to use Jekyll.
 
-### _config.yml
+### `_config.yml`
 ~~~yml
 url: https://insert-your-url-here.invalid # replace with your webring's URL, which should end in .netlify.app (no slash afterwards)
 include: [_redirects]
@@ -45,7 +46,7 @@ github_repo_url: https://insert-repository-url-here.invalid # replace with your 
 Another mandatory Jekyll file, but you can customize it. Make sure to replace the URLs with your webring's URL and repository.  
 This one makes sure to include the `_redirects` file (discussed later), and disables syntax highlighting and smart quotes.
 
-### _data/members.csv
+### `_data/members.csv`
 
 ~~~csv
 slug,name,url
@@ -59,7 +60,7 @@ This file contains information about the members, which Jekyll can automatically
 Change the lines after the first line to your members' information, using the [comma-separated values format](https://www.rfc-editor.org/rfc/rfc4180#section-2).  
 `slug` has to be unique for each member, and contain only ASCII lowercase letters, digits, and hyphen-minuses.
 
-### _layouts/html.html
+### `_layouts/html.html`
 {% raw %}
 ~~~html
 ---
@@ -82,7 +83,7 @@ Jekyll will interpret the instructions between the `{{` and `}}`, and replace th
 This is a <i>layout</i>, markup we want used more than once.  
 If your webring is in a language other than English, you should update the `lang=en` accordingly.
 
-### index.html
+### `index.html`
     ---
     title: Insert Title Here
     layout: html
@@ -105,7 +106,7 @@ Jekyll will first follow the instructions it's given between the `{%` and  `%}`,
 then apply the `html` layout to it.  
 The for loop at the end of the page prints a list of all the members from `_data/members.csv`.
 
-### _redirects
+### `_redirects`
 
     ---
     layout: none
@@ -122,7 +123,7 @@ The for loop at the end of the page prints a list of all the members from `_data
 
 This file is what gives the webring its actual ring functionality. For every `slug` in `_data/members.csv`, Netlify will redirect `/slug/next` and `/slug/previous` to the next and previous `url`s.
 
-### join.html (if you want users to be able to join)
+### `join.html` (if you want users to be able to join)
 ~~~html
 ---
 title: How to Join
@@ -168,7 +169,7 @@ Users are then told which links to add to their webpage, and informed about the 
 because I think the `<aside>` element is important for webring members to know about.
 
 Of course you can change this file in any way you want, just like the others.
-### 404.html (optional)
+### `404.html` (optional)
 
     ---
     title: Not Found
@@ -179,7 +180,7 @@ Of course you can change this file in any way you want, just like the others.
 
 This page will be displayed if a user tries to access a page which doesn't exist. In that case, they'll be told to submit an error report.
 If you don't include this file, users who try to access nonexistent pages will just be shown Netlify's default Not Found page.
-### main.css (optional but recommended)
+### `main.css` (optional but recommended)
 This is a [Cascading Style Sheets](https://developer.mozilla.org/en-US/docs/Web/CSS) file, which you can use to make the webring not be
 generic black serif text on a white background. Customize the CSS in any way you want! I provide no default!
 ## Publish the webring

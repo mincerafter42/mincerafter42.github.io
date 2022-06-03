@@ -1,7 +1,7 @@
 ---
 title: "Skirt: The epic conclusion"
 date: 2020-11-13 18:06:57 -0800
-tags: [2020-21 school year, with special guest Amber]
+tags: [2020-21 school year, with special guest Amber,skirt2020]
 ---
 Amber has the skirt now!  
 They have confirmed it goes spinny  

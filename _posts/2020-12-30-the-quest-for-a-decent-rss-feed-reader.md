@@ -1,6 +1,6 @@
 ---
 title: The quest for a decent RSS feed reader
-tag: Programming
+tags: Programming nss
 date: 2020-12-30 10:40:58 -0800
 ---
 As you might know, my blog is syndicated using RSS. There are other websites which I wish to know when they post that also syndicate posts with RSS. However, finding an RSS feed reader with the simple functionality I am looking for is surprisingly hard!

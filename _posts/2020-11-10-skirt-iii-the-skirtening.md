@@ -1,7 +1,7 @@
 ---
 title: "Skirt III: The skirtening"
 date: 2020-11-10 08:42:00 -0800
-tags: [2020-21 school year, with special guest Amber]
+tags: [2020-21 school year, with special guest Amber,skirt2020]
 ---
 This is presumably the conclusion of making a skirt for my friend Amber
 

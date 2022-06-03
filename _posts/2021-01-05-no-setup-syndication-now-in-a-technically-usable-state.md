@@ -1,6 +1,6 @@
 ---
 title: "No Setup Syndication: Now in a technically usable state"
-tag: programming
+tags: programming nss
 date: 2021-01-05 15:33:38 -0800
 ---
 A few days ago I decided to try making an RSS feed reader. It is now technically working!

@@ -1,6 +1,7 @@
 ---
 title: This blog is more WordPressy than I thought
 date: 2020-11-18 11:15:07 -0800
+tag: update
 ---
 I was recently told that my blog is very WordPressy. This led me to discover that everyone other than me is seeing a big white "Create your own website with WordPress" bar at the top of my blog. I was seeing an entirely different bar.
 

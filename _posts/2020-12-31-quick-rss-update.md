@@ -1,6 +1,6 @@
 ---
 title: Quick RSS feed reader update
-tag: Programming
+tags: Programming nss
 date: 2020-12-31 13:09:10 -0800
 ---
 Just a quick update on the last post.

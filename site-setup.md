@@ -1,5 +1,6 @@
 ---
 title: Site Setup
+last_modified_at: 2021-09-26
 ---
 This page will describe how you are able to view this very website, assuming you know pretty much nothing about that.
 

@@ -3,6 +3,7 @@ title: Pseudo-monthly archives on Jekyll with GitHub Pages
 date: 2020-11-24 13:55 -0800
 tag: Programming
 ---
+<ins>Though this page is written in the present tense, this tutorial is no longer implemented on my website.</ins>
 {% raw %}
 If you, like me, are hosting a blog with Jekyll on GitHub Pages and want to get as close as you can to monthly archive pages, you can try what I did.  
 If you do what I did on my blog:

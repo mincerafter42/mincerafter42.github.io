@@ -1,6 +1,7 @@
 ---
 title: Blog transfer plan
 date: 2020-11-22 10:48:57 -0800
+tag: update
 ---
 I have decided to look into hosting my blog in a way other than using WordPress.com.
 

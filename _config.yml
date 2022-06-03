@@ -1,33 +1,21 @@
-title: Vivi's blog
-description: "programmer, demigirl, mess"
+title: The Web Site of Viatrix
+description: Internet Rando Extraordinaire!
 baseurl: ""
 url: "https://mincerafter42.github.io"
 timezone: America/Vancouver
 encoding: "utf-8"
+git_repo_url: https://github.com/mincerafter42/mincerafter42.github.io
 
 kramdown:
  smart_quotes: "39,39,34,34"
+ syntax_highlighter: +nil+
 
 permalink: pretty
-
-gems:
- - jekyll-paginate
-
-paginate: 5
-paginate_path: /archive/:num
 
 month_format: "%Y-%m" # used by my custom pseudo-month archive script
 
 defaults:
- - 
-  scope:
-   path: ""
-   type: "pages"
-  values:
-   layout: "page"
- - 
-  scope:
-   path: ""
-   type: "posts"
-  values:
-   layout: "post"
+ - scope:
+    path: ""
+   values:
+    layout: "title"

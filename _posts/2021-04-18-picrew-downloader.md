@@ -2,6 +2,7 @@
 title: Picrew Downloader
 tag: programming
 date: 2021-04-18 18:39:08 -0700
+last_modified_at: 2021-04-19 07:15 -0700
 ---
 There exists [an image maker known as Picrew](https://picrew.me), in which one can create images using some premade makers.  
 But it's kind of annoying if you want to change a part of the image just slightly and you don't have the tools available to do so.

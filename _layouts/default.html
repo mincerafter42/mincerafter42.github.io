@@ -1,24 +1,12 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-
-	{% include head.html %}
-
-	<body>
-	<div id="container">
-		{% include header.html %}
-		<div id="wrapper">
-			<div id="responsive">
-				<div id="content">
-					<main id="main">
-						{{ content }}
-					</main>
-				</div>
-				{% include sidebar.html %}
-			</div>
-			{% include footer.html %}
-		</div>
-	</div>
-
-	</body>
-
-</html>
+<html lang=en>
+<meta charset=utf-8>
+<link rel=stylesheet href=/common.css>
+<link rel=icon href=/assets/favicon.png>
+<link rel=alternate href={{site.git_repo_url}}/blob/main/{{page.path}}?plain=1>
+<title>{{page.title|default:site.title}}</title>
+<main>
+{{content}}
+</main>
+<footer><a href=/>Return to the home page</a><br>
+Last updated {{page.last_modified_at|default:page.date|default:site.time|date:"%F"}}</footer>

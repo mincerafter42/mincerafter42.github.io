@@ -2,10 +2,10 @@
 title: A gift and the subsequent shirt
 date: 2020-12-27 10:18:25 -0800
 ---
-Recently I was gifted two issues of a _Linux Pro Magazine_. I had not heard of this magazine before (but apparently it was a good deal because one issue came with a DVD of all the past issues. Now I have all sorts of useful information from the past 20 years, such as that Blender has a premium version that can be purchased for £57).
+<time datetime="2020-12-25">Recently</time> I was gifted two issues of a _Linux Pro Magazine_. I had not heard of this magazine before (but apparently it was a good deal because one issue came with a DVD of all the past issues. Now I have all sorts of useful information from the past 20 years, such as that Blender has a premium version that can be purchased for £57).
 
 The part relevant to this post is that _Linux Pro Magazine_ publishes [a webcomic called _Elvie_](http://peppertop.com/elvie). (The comic appears to be produced for the magazine and released online at a delay.)  
-For me, not all of the jokes in _Elvie_ land. Some of its jokes I find funny while others I don't.
+For me, not all of the jokes in _Elvie_ land. Some of its jokes I find funny while others I don't. I do not endorse bitcoin.
 
 Eventually I encountered [the _Elvie_ #069 comic](http://peppertop.com/elvie/comic/elvie-069), which consists of many shirts with jokes. As with the comic in general, I don't find all of the shirts funny, but there's a lot of them here, and there was one shirt that I found so funny that I actually wanted to own a copy of the shirt.
 
