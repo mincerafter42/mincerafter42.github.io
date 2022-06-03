@@ -3,9 +3,7 @@ layout: default
 title: gay
 ---
 # Elaboration of Gaiety
-As you know from my [About Page](/about), my pronouns are she|they. (she/her and they/them are both fine; use either)
-I'm <abbr title="experiencing no sexual attraction">asexual</abbr> and <abbr title="experiencing little to no romantic attraction">aro-spec</abbr>.<br>
-I'm a <abbr title="partially girl">demigirl</abbr>, putting me under the <abbr title="Being neither 100% male 100% of the time nor 100% female 100% of the time">non-binary</abbr> and <abbr title="being a gender other than what you were assigned at birth (because people make assumptions about babies' genders before the babies even know gender is a thing)">trans</abbr> umbrellas.
+As you know from my [About Page](/about), my pronouns are she|they (she/her and they/them are both fine; use either) and I'm an asexual aro-spec demigirl.
 
 ## Attraction
 I'm asexual; I experience no sexual attraction. I don't want to have sex either; ew. Sometimes I even forget sex exists. (Although I can forget basically anything exists).

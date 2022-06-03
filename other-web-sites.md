@@ -39,7 +39,7 @@ a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! 
 
 ## Music
 - [Bill Wurtz](https://billwurtz.com)
-- [Lemon Demon](https://lemondemon.com)
+- [Lemon Demon](http://lemondemon.com)
 - [Tom Lehrer](https://tomlehrersongs.com) (some nsfw content)
 
 ## Other cool sites
@@ -50,5 +50,4 @@ a website I found in the early 2010s. It is very much a Pokémon website, with i
 
 ## It's the World Wide Web
 {:.no_toc}
-Listen to Lemon Demon's <i>World Wide Web</i> :p
-<audio controls="yes please give me control" src="http://lemondemon.com/downloads/MC%20Webmasta%20-%20World%20Wide%20Web.mp3"><a href="http://lemondemon.com/downloads/MC%20Webmasta%20-%20World%20Wide%20Web.mp3" target="_blank">Lemon Demon's <i>World Wide Web</i></a></audio>
+Listen to <a href="http://lemondemon.com/downloads/MC%20Webmasta%20-%20World%20Wide%20Web.mp3" target="_blank">Lemon Demon's <i>World Wide Web</i></a> :p

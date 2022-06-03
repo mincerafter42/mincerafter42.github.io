@@ -1,5 +1,5 @@
 ---
-time: now
+time: 2022-06-22
 tag: update
 ---
 Welcome to the big website redesign of 2022  
