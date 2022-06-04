@@ -1,6 +1,6 @@
 ---
 title: Things I Have Said Which May Be Mildly Humorous Out Of Context
-last_modified_at: 2022-06-03
+last_modified_at: 2022-06-04
 ---
 - ...i summarized my life from grade 2-12 because i recently reëstablished contact with a former grade 2 classmate and i realize i may sound incredibly overpowered in my summary  
   "i won a spelling contest without practicing lol"  
@@ -48,3 +48,19 @@ last_modified_at: 2022-06-03
 - legs being sexy is a myth made by pants companies to sell pants made with less fabric
 - i didn't see any porn but i am now racing. against porn.
 </details>
+
+## New passwords
+A running joke I have is to claim phrases are my new password, based on [correct horse battery staple](https://xkcd.com/936/).
+
+- "no Javascript whatsoever unlike other modern webring frameworks" is my new password
+- "updated ezine egirl webring iframe background colour" is my new password
+- 'current confirmed cuddler count' is very alliterative and is my new password :p
+- "common character attribute combination" is my new password
+- "can't independently determine blushworthiness" is my new password :p
+- "syndication feed format history" and "image formats' internal intricacies" are my new passwords
+- "tangentialy explained disinformation's etymology" is my new password
+- equally calibred vernacular equivalents (which is also my new password)
+- large thin flexible rectangle is my new password
+- "rotating circle crisis averted" is my new password
+- "attempted amplifying hat deformations" gives me "correct horse battery staple" vibes  
+  (presumably the originator, from 2021-10-10)
