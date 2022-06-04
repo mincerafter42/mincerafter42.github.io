@@ -1,6 +1,6 @@
 ---
 title: Things I Have Said Which May Be Mildly Humorous Out Of Context
-last_modified_at:2022-06-02
+last_modified_at: 2022-06-02
 ---
 - i may have mothed so much that i'm mothing after mothers day is over
 - near-homographic, by which i mean they're nearly spelled the same, not that they're nearly graphic gays
