@@ -1,9 +1,9 @@
 ---
 title: Cool/Useful Links
-last_modified_at: 2022-06-03
+last_modified_at: 2022-06-07
 ---
 
-On this page you can find links to websites which I think are cool. This is not a complete comprehensive list.
+On this page you can find links to websites which I think are cool or useful. This is not a complete comprehensive list.
 
 ## Table of Contents
 {:.no_toc}
@@ -21,6 +21,7 @@ My friend Maplestrip. We both read the webcomic El Goonish Shive (found in this 
 ## Useful utilities
 Likely require Javascript and eyes.
 
+- [Internet Archive](https://archive.org)
 - [jisho](https://jisho.org) when you gotta figure out what some japanese text says
 - [RegEx Pal](https://regexpal.com) regex tester and cheat sheet
 - [whois querier](https://www.bgreco.net/whois) (if you have Unix/Linux you can just use the `whois` command instead)
