@@ -1,6 +1,6 @@
 ---
 title: Things I Have Said Which May Be Mildly Humorous Out Of Context
-last_modified_at: 2022-06-04
+last_modified_at: 2022-06-09
 ---
 - ...i summarized my life from grade 2-12 because i recently reëstablished contact with a former grade 2 classmate and i realize i may sound incredibly overpowered in my summary  
   "i won a spelling contest without practicing lol"  
@@ -43,7 +43,7 @@ last_modified_at: 2022-06-04
   though it has neither snakes or ladders
 - leap negative zeroths wouldn't make sense because then leap days would be anti-leap-minutes
 <details markdown=1>
-<summary>Caution: These quotes contain sexual references</summary>
+<summary>These quotes have a higher web rating than the rest of the site: <img src="/assets/Censor_14a.png" alt="Web 14" /></summary>
 - plot twist: strip scrabble turns out to be identical to regular scrabble because nobody knew when they were supposed to strip
 - legs being sexy is a myth made by pants companies to sell pants made with less fabric
 - i didn't see any porn but i am now racing. against porn.
