@@ -47,7 +47,7 @@ a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! 
 - (PG) [Kid Radd](https://www.bgreco.net/kidradd.htm), an early 2000s webcomic optimized for small filesizes (which is also one of my goals with <i>Fillbert</i>)
 - [Rae The Doe](https://raethedoe.tumblr.com) gay trans deer
 - [Real Life Comics](https://reallifecomics.com/)
-- [Ruth & Dianne Are Starting a Band](https://ruthanddianne.com/)
+- (14) [Ruth & Dianne Are Starting a Band](https://ruthanddianne.com/)
 - (14) [xkcd](https://xkcd.com)
 
 ## Music
