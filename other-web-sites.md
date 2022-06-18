@@ -32,7 +32,8 @@ Likely require Javascript and eyes.
 ### Installable software
 Unless indicated otherwise, software is free, libre, and available on Linux, Windows, and MacOS.
 
-- (G) [Claws Mail](https://www.claws-mail.org/), a small and barebones e-mail client (Linux & Windows only)
+- (G) [Claws Mail](https://www.claws-mail.org/), a small and barebones e-mail client
+- (G) [Gnu Unifont](https://www.unifoundry.com/unifont)
 - (G) [KeePassXC](https://keepassxc.org/), a password manager
 - (G) [QuiteRSS](https://quiterss.org/), an RSS & Atom feed reader
 - (G) [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin), an ad-blocking browser extension
