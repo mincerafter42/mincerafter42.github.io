@@ -29,14 +29,15 @@ Likely require Javascript and eyes.
 - [RegEx Pal](https://regexpal.com) regex tester and cheat sheet
 - [whois querier](https://www.bgreco.net/whois) (if you have Unix/Linux you can just use the `whois` command instead)
 
-### Installable software
-Unless indicated otherwise, software is free, libre, and available on Linux, Windows, and MacOS.
+### Installable software (G unless indicated otherwise)
+Unless indicated otherwise, software is free, libre, available on Linux, Windows, and MacOS.
 
-- (G) [Claws Mail](https://www.claws-mail.org/), a small and barebones e-mail client
-- (G) [Gnu Unifont](https://www.unifoundry.com/unifont)
-- (G) [KeePassXC](https://keepassxc.org/), a password manager
-- (G) [QuiteRSS](https://quiterss.org/), an RSS & Atom feed reader
-- (G) [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin), an ad-blocking browser extension
+- [Claws Mail](https://www.claws-mail.org/), a small and barebones e-mail client
+- [FontForge](https://fontforge.org), for creating/editing fonts
+- [Gnu Unifont](https://www.unifoundry.com/unifont), a font covering most code points
+- [KeePassXC](https://keepassxc.org/), a password manager
+- [QuiteRSS](https://quiterss.org/), an RSS & Atom feed reader
+- [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin), an ad-blocking browser extension
 
 ## Webcomics
 - (PG) [Aces Wild](https://www.webtoons.com/en/challenge/aces-wild/list?title_no=689025), an educational comic about asexuality.
