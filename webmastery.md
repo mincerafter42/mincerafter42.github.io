@@ -16,5 +16,6 @@ Here are some useful resources if you wish to learn <abbr title="HyperText Marku
 
 ## Webmastery tutorials I've made:
 
+- [Accessible CSS navigation dropdown](/tutorial/accessible-css-dropdown)
 - [How to make a webring](/tutorial/webring) (via setting up a new website on Netlify)
 - [Pseudo-Monthly Archives on Jekyll with GitHub Pages](/2020/11/24/pseudo-monthly-archives-on-jekyll-with-github-pages) (only applies to Jekyll with GitHub pages)
