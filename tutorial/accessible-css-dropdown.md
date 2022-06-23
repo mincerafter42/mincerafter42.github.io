@@ -39,7 +39,7 @@ aight so you got your `nav` and give it a nice `class` and put your interactive 
 </ul>
 </nav>
 ~~~
-(in this example I use an `img` element; the `alt` attribute is empty)
+(in this example I use an `img` element; the `alt` attribute is empty because the image only serves a purpose for mouse users)
 
 then in your CSS you wanna do a:
 
