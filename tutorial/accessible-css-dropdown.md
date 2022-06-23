@@ -5,6 +5,8 @@ last_modified_at: 2022-06-23
 There are many tutorials for accessible CSS navigation dropdowns online, but none of them use the method I had in my mind for the past couple of years. Which is odd, considering I thought I had learned it somewhere.
 Well, now I can share my knowledge!
 
+**This tutorial assumes you are already familiar with HTML and CSS.**
+
 For sighted users, the content of the dropdown isn't visible until it's hovered or focused.  
 For keyboard users, the dropdown's interactive elements are focusable just as any other interactive elements, and the dropdown content appears when an element is focused.
 (Do note this tutorial is only useful for dropdowns *of interactive elements*.)  
