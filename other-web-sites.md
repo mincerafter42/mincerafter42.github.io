@@ -32,9 +32,13 @@ Likely require Javascript and eyes.
 ### Installable software (G unless indicated otherwise)
 Unless indicated otherwise, software is free, libre, available on Linux, Windows, and MacOS.
 
+- [Blender](https://blender.org), for 3D animation
 - [Claws Mail](https://www.claws-mail.org/), a small and barebones e-mail client
+- [enve](https://maurycyliebner.github.io/), for 2D animation (in development) (Windows and Linux only)
 - [FontForge](https://fontforge.org), for creating/editing fonts
+- [<abbr title="Gnu Image Manipulation Program">GIMP</abbr>](https://gimp.org), for editing images.
 - [Gnu Unifont](https://www.unifoundry.com/unifont), a font covering most code points
+- [Inkscape](https://inkscape.org/), for creating and editing *vector* images.
 - [KeePassXC](https://keepassxc.org/), a password manager
 - [QuiteRSS](https://quiterss.org/), an RSS & Atom feed reader
 - [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin), an ad-blocking browser extension
@@ -54,6 +58,7 @@ a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! 
 
 ## Music
 - (PG; mostly G with a few outliers) [Bill Wurtz](https://billwurtz.com)
+- (G) [Seeburg 1000 Background Music Radio](http://74.82.59.197:8351/stream/%3b) (live!)
 - (PG) [Lemon Demon](http://lemondemon.com)
 - (14) [Tom Lehrer](https://tomlehrersongs.com)
 
