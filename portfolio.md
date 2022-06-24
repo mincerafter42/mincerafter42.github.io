@@ -39,6 +39,7 @@ This list may be incomplete. If there's a cool thing I did that I forgot about, 
 - I contributed to the Pronoun Dressing Room and PIL Tool on [asteine8.github.io](https://asteine8.github.io/) on 2020-02-28. I have apparently improved since then because my commits make me want to go *what were you thinking, past me*, but uhh the cool part was building on existing code, which I seem to remember being commented well and easy to navigate, so good job asteine8 if my past self's memory is correct.
 
 ## Media
+- [vintafade.gif](/assets/vintafade.gif) (2021-05-26). it's just a gif of a box of vinta fading, showing what happens to boxes of vinta left near me (the vinta disappears via me eating it all :p )
 - [The webcomic Fillbert](https://mincerafter42.github.io/fillbert), an ongoing webcomic with slightly obscure Web technologies featuring this spherical cat and myself and my friends. First comic released 2021-05-24.
 - I animated [a video about the PNG image format.](/2021/04/12/png). Published 2021-04-12.
   - The prequel: [A brief foray into animated PNG](/2020/12/04/a-brief-foray-into-animated-png) (2020-12-04)
