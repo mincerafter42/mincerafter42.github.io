@@ -69,7 +69,7 @@ void outLzw(int numPixels, int numBits, FILE *outFile) {
   int efficiency = (numBits-(numBits%numPixels))/numPixels; // need to make sure math is done correctly with ints
   for (int i=0;i<numPixels;i++) { // encode every pixel
    int previousMatch = largestMatch;
-   for (int j=0;j<dictLen;j++) if (lzwDict[j][0]==largestMatch && lzwDict[j][1]==efficiency) {largestMatch = j;break;}
+   for (int j=previousMatch+1;j<dictLen;j++) if (lzwDict[j][0]==largestMatch && lzwDict[j][1]==efficiency) {largestMatch = j;break;}
    if (previousMatch==largestMatch) { // largest match has been found
     toSubBlocks(largestMatch,wordSize, outFile);
     if (dictLen<4096) {
