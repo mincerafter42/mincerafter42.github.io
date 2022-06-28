@@ -1,6 +1,6 @@
 ---
 title: Cool/Useful Links
-last_modified_at: 2022-06-18
+last_modified_at: 2022-06-28
 ---
 
 On this page you can find links to websites which I think are cool or useful. This is not a complete comprehensive list.  
@@ -38,7 +38,7 @@ Unless indicated otherwise, software is free, libre, available on Linux, Windows
 - [FontForge](https://fontforge.org), for creating/editing fonts
 - [<abbr title="Gnu Image Manipulation Program">GIMP</abbr>](https://gimp.org), for editing images.
 - [Gnu Unifont](https://www.unifoundry.com/unifont), a font covering most code points
-- [Inkscape](https://inkscape.org/), for creating and editing *vector* images.
+- [Inkscape](https://inkscape.org/), for creating and editing *vector* images. Tip: Once you install it, there are tutorials in the Help→Tutorials menu.
 - [KeePassXC](https://keepassxc.org/), a password manager
 - [QuiteRSS](https://quiterss.org/), an RSS & Atom feed reader
 - [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin), an ad-blocking browser extension
