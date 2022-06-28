@@ -142,7 +142,7 @@ layout: html
 
 <h2>Add yourself to the members list</h2>
 <p>Add a unique slug, your webpage's name, and your webpage's URL to <a href={{site.github_repo_url}}/blob/main/_data/members.csv>the members list on GitHub</a> in a pull request.<br>
-Pull requests can also be used to change your existing entry or delete your entry.
+Pull requests can also be used to change your existing entry or delete your entry.</p>
 
 <details>
 <summary>If you don't have a GitHub account, fill out this form instead:</summary>
@@ -152,6 +152,7 @@ Pull requests can also be used to change your existing entry or delete your entr
 (ASCII lowercase letters, digits, and hyphen-minuses)<br>
 <label>Name <textarea name=name></textarea></label><br>
 <label>URL <input name=url type=url></label><br>
+<label>E-mail address <input type=email name=email required></label><br>You'll receive an e-mail when your addition/change is made.<br>
 <input type=submit>
 </form>
 If you're editing your existing entry, make sure to use the same slug. If you're deleting your existing entry, leave the URL field blank.
@@ -166,7 +167,8 @@ This is a page instructing users how to join.
 Users are given a link to the members list on GitHub, or, if they don't have a GitHub account,
 a form to fill out. The form will automatically be collected using Netlify Forms.  
 Users are then told which links to add to their webpage, and informed about the `<aside>` element,
-because I think the `<aside>` element is important for webring members to know about.
+because I think the `<aside>` element is important for webring members to know about.  
+If you choose to use the form's e-mail address input, **there is no automated system to send e-mails. You must send them manually.**
 
 Of course you can change this file in any way you want, just like the others.
 ### `404.html` (optional)
