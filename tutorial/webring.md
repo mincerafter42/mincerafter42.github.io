@@ -1,6 +1,6 @@
 ---
 title: How to make a webring
-last_modified_at: 2022-05-25
+last_modified_at: 2022-06-28
 ---
 ## (With no JavaScript whatsoever, using Github, Jekyll, and Netlify)
 <aside>
