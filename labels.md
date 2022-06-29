@@ -4,7 +4,9 @@ title: gay
 last_modified_at: 2022-06-02
 ---
 # Elaboration of Gaiety
-As you know from my [About Page](/about), my pronouns are she|they (she/her and they/them are both fine; use either) and I'm an asexual aro-spec demigirl.
+<aside style="float:right"><a href="/gayquiz"><img src="/gayquiz/resultdark.png" alt="I'm GAY! Find out whether you're gay with THE GAY QUIZ!"></a></aside>
+As you know from my [About Page](/about), my pronouns are she|they (she/her and they/them are both fine; use either) and I'm an asexual aro-spec demigirl.  
+I'm gay! in the sense of generally queer.
 
 ## Attraction
 I'm asexual; I experience no sexual attraction. I don't want to have sex either; ew. Sometimes I even forget sex exists. (Although I can forget basically anything exists).
