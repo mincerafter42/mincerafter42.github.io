@@ -168,7 +168,7 @@ Users are given a link to the members list on GitHub, or, if they don't have a G
 a form to fill out. The form will automatically be collected using Netlify Forms.  
 Users are then told which links to add to their webpage, and informed about the `<aside>` element,
 because I think the `<aside>` element is important for webring members to know about.  
-If you choose to use the form's e-mail address input, **there is no automated system to send e-mails. You'd have send them manually.**
+If you choose to use the form's e-mail address input, **there is no automated system to send e-mails. You'd have to send them manually.**
 
 Of course you can change this file in any way you want, just like the others.
 ### `404.html` (optional)
