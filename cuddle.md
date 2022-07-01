@@ -1,6 +1,6 @@
 ---
 title: Recreational Drugs? No Thanks, I Prefer Recreational Hugs
-last_modified_at: 2022-06-03
+last_modified_at: 2022-07-01
 ---
 I love cuddling! I want to cuddle my friends! (but some of them don't want cuddles so I won't cuddle them) (and some of them aren't within cuddling distance)
 
@@ -32,5 +32,6 @@ Good for introducing the concept of a glomp. From <i>[El Goonish Shive](https://
 From <i>Still Sick</i>.
 
 ## Cuddly links
+- [Mazeguy Smilies - Romantic](http://www.mazeguy.net/romantic.html) includes some hug & nuzzle smilies
 - [The Big Collection of Love ASCII Art](http://loveascii.com) (formerly named The Cuddly Collection Of ASCII Art)
 - [The Nicest Place on the Internet](https://thenicestplace.net/)

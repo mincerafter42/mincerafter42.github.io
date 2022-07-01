@@ -1,6 +1,6 @@
 ---
 title: Cool/Useful Links
-last_modified_at: 2022-06-28
+last_modified_at: 2022-07-01
 ---
 
 On this page you can find links to websites which I think are cool or useful. This is not a complete comprehensive list.  
