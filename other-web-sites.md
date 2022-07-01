@@ -26,6 +26,7 @@ Likely require Javascript and eyes.
 
 - (the content's user-submitted so it could be anything) [Internet Archive](https://archive.org)
 - [jisho](https://jisho.org) when you gotta figure out what some japanese text says
+- [Just Solve The File Format Problem](http://fileformats.archiveteam.org/), a wiki of file format information.
 - [RegEx Pal](https://regexpal.com) regex tester and cheat sheet
 - [whois querier](https://www.bgreco.net/whois) (if you have Unix/Linux you can just use the `whois` command instead)
 
