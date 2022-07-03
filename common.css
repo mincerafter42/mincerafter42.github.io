@@ -59,7 +59,7 @@ pre {
 	padding: 3px;
 	background-color: #000;
 }
-img, svg {max-width:100%;height:auto}
+img, svg {max-width:100%;height:auto;image-rendering:pixelated}
 del {text-decoration: line-through;}
 ins::before {content: "Update: "}
 ins[datetime]::before {content: "Update " attr(datetime) ": "}
