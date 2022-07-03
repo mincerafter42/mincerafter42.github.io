@@ -5,6 +5,7 @@ last_modified_at: 2022-06-02
 ---
 # Content which doesn't really fit in any other category of my web site
 
+- [Fun](/fun) on the Fun page! Site awards, quiz results, and fake ads, arranged precariously with floats!
 - [Quotes I have said which might be mildly humourous out of context](/quotes)
 - A dive into obscure web logos
   2. [Part 2](/2021/10/06/obscure-web-logos-part-2)
