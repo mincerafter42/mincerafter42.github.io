@@ -24,6 +24,7 @@ My friend Maplestrip. We both read the webcomic El Goonish Shive (found in this 
 ## Useful utilities
 Likely require Javascript and eyes.
 
+- [Emojipedia](https://emojipedia.org); a database of emoji (helpful if you want to copy+paste one since you haven't memorized its codepoint(s))
 - (the content's user-submitted so it could be anything) [Internet Archive](https://archive.org)
 - [jisho](https://jisho.org) when you gotta figure out what some japanese text says
 - [Just Solve The File Format Problem](http://fileformats.archiveteam.org/), a wiki of file format information.
@@ -46,6 +47,7 @@ Unless indicated otherwise, software is free, libre, available on Linux, Windows
 
 ## Webcomics
 - (PG) [Aces Wild](https://www.webtoons.com/en/challenge/aces-wild/list?title_no=689025), an educational comic about asexuality.
+- [Argon Zark!](https://www.zark.com/)
 - ![](/assets/elgoonishshive-banner.png){:style="float:right"}
 (14) [El Goonish Shive](https://egscomics.com),
 a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! Does it have magic genders? Not sure what that even means. Does it have gender-related magic? Yes. Does it have plot? Yes. Lots of plot. Does it have [an emotional page from 2014 that helped me and many others come out](https://www.egscomics.com/comic/2014-07-01)? Yes. The evolution of the comic has been generally regarded as "it gets better".
