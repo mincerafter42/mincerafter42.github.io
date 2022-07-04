@@ -1,6 +1,6 @@
 ---
 title: Cool/Useful Links
-last_modified_at: 2022-07-02
+last_modified_at: 2022-07-03
 ---
 
 On this page you can find links to websites which I think are cool or useful. This is not a complete comprehensive list.  
@@ -44,6 +44,7 @@ Unless indicated otherwise, software is free, libre, available on Linux, Windows
 - [KeePassXC](https://keepassxc.org/), a password manager
 - [QuiteRSS](https://quiterss.org/), an RSS & Atom feed reader
 - [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin), an ad-blocking browser extension
+- [VLC Media Player](http://www.videolan.org/vlc/) it is a media player.
 
 ## Webcomics
 - (PG) [Aces Wild](https://www.webtoons.com/en/challenge/aces-wild/list?title_no=689025), an educational comic about asexuality.
