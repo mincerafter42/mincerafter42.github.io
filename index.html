@@ -1,6 +1,6 @@
 ---
 layout: none
-last_modified_at: 2022-07-05
+last_modified_at: 2022-07-06
 ---
 <!DOCTYPE html>
 <html lang=en>
@@ -48,12 +48,14 @@ ul.buttons li {display:inline}
 	background: center / 100% 100% no-repeat url('assets/pointy.svg');
 }
 .cuddler-webring {
+	width:376px;
 	background-color: #ffd8d8;
 	border-color: #fff0f0 #d09090 #d09090 #fff0f0;
 	color: #000;
 	font-family: "Comic Neue", "Atkinson Hyperlegible", sans-serif;
 }
 .cuddler-webring a {color:#303}
+.transring {background-color:#313063;border-color:#654c9e #242348 #242348 #654c9e;width:168px}
 #AdsDiv {position:sticky;top:0}
 </style>
 <aside id=AdsDiv><iframe src=assets/banner728x90.html width=728 height=90></iframe></aside>
@@ -80,15 +82,27 @@ With such a diversity of interests as...
 </nav>
 <div><a href=http://www.mabsland.com/Adoption.html>This site is rated <img src=assets/Censor_PGa.png alt="Web PG"></a></div>
 <h2>Webrings</h2>
+<p>A <dfn>webring</dfn> is a group of websites wherein each website links to two other websites, collectively forming a ring structure.
 <div style="display:flex;flex-direction:row;flex-wrap:wrap;align-items:center;justify-content:center">
-<div class="cuddler-webring outset" style=width:376px>
+<div class="cuddler-webring outset">
 Part of the <a href=https://cuddler-webring.netlify.app/>Cuddler Webring</a>!<br>
 <a href=https://cuddler-webring.netlify.app/mincerafter42/previous>«Cuddler Webring Previous</a>
 <a href=https://cuddler-webring.netlify.app/mincerafter42/next>Cuddler Webring Next»</a>
 </div>
-<iframe width=330 height=90 src="https://go.KIBI.family/WebRings/💀💖/embed/#/mincerafter42" sandbox="allow-scripts allow-same-origin allow-top-navigation" style="border:18pt solid;border-color:#f3ecff #c7c2d1 #c7c2d1 #f3ecff;background-color:#dedbd9"></iframe>
-<aside>
+<iframe width=330 height=90 src="https://go.KIBI.family/WebRings/💀💖/embed/#/mincerafter42" sandbox="allow-scripts allow-same-origin allow-top-navigation" style="border:18pt solid;border-color:#f3ecff #c7c2d1 #c7c2d1 #f3ecff;background-color:#dedbd9;margin:8pt"></iframe>
+<div class="transring outset">
+<a href=https://sugarforbrains.neocities.org/transring/index.html><img src=assets/transring/webringbutton.png alt="Transing The Internet Webring" width=168 height=39 style=padding:2px></a><br>
+<iframe width=168 height=24 style=border:0 srcdoc="
+<style>body{margin:0;color:#fff;display:flex;justify-content:center}img{display:block}a:hover img,a:focus img{background-color:#ff28ff}</style><body>
+<noscript>But without Javascript, it's just a web list.</noscript>
+<script src=https://sugarforbrains.neocities.org/transring/onionring-variables.js></script>
+<script>var selfIndex = sites.indexOf('https://mincerafter42.github.io');
+document.write(`<a href='${sites[(selfIndex||sites.length)-1]}'><img src=assets/transring/arrowleft.png alt='${ringName} previous'></a>`);
+document.write(`<a href='${sites[(selfIndex+1)%sites.length]}'><img src=assets/transring/arrowright.png alt='${ringName} next'></a>`);</script>
+"></iframe>
 </div>
+</div>
+<aside>
 <h2>Buttons & Badges</h2>
 <p id=my-button>My 88×31 button: <img src=assets/vivi-8831.png width=88 height=31 alt=Viatrix!> (make sure to include the alt text!)
 <ul class=buttons>
