@@ -1,6 +1,6 @@
 ---
 title: Cool/Useful Links
-last_modified_at: 2022-07-03
+last_modified_at: 2022-07-05
 ---
 
 On this page you can find links to websites which I think are cool or useful. This is not a complete comprehensive list.  
@@ -25,6 +25,25 @@ My friend Maplestrip. We both read the webcomic El Goonish Shive (found in this 
 Likely require Javascript and eyes.
 
 - [Emojipedia](https://emojipedia.org); a database of emoji (helpful if you want to copy+paste one since you haven't memorized its codepoint(s))
+- [Free web counters for your website or blog](https://www.websiteout.ca/counter.php) (counters are images only; no text)
+  
+  Experiment with URL parameters on [the example counter](https://counter.websiteout.net/example.php)!
+  
+  S
+  : URL/unique ID to count visits for (has no effect on the example)
+  
+  C
+  : Counter design (1—36)
+  
+  D
+  : Digits to display (default: changes to fit)
+  
+  N
+  : Positive integer to add to the count (default 0)
+  
+  M
+  : Whether to count every visit or unique visitors (has no effect)
+
 - (the content's user-submitted so it could be anything) [Internet Archive](https://archive.org)
 - [jisho](https://jisho.org) when you gotta figure out what some japanese text says
 - [Just Solve The File Format Problem](http://fileformats.archiveteam.org/), a wiki of file format information.
