@@ -97,8 +97,8 @@ Part of the <a href=https://cuddler-webring.netlify.app/>Cuddler Webring</a>!<br
 <noscript>But without Javascript, it's just a web list.</noscript>
 <script src=https://sugarforbrains.neocities.org/transring/onionring-variables.js></script>
 <script>var selfIndex = sites.indexOf('https://mincerafter42.github.io');
-document.write(`<a href='${sites[(selfIndex||sites.length)-1]}'><img src=assets/transring/arrowleft.png alt='${ringName} previous'></a>`);
-document.write(`<a href='${sites[(selfIndex+1)%sites.length]}'><img src=assets/transring/arrowright.png alt='${ringName} next'></a>`);</script>
+document.write(`<a href='${sites[(selfIndex||sites.length)-1]}' target=_parent><img src=assets/transring/arrowleft.png alt='${ringName} previous'></a>`);
+document.write(`<a href='${sites[(selfIndex+1)%sites.length]}' target=_parent><img src=assets/transring/arrowright.png alt='${ringName} next'></a>`);</script>
 "></iframe>
 </div>
 </div>
