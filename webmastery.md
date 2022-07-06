@@ -1,10 +1,11 @@
 ---
 title: Webmastery
 layout: default
-last_modified_at: 2022-06-02
+last_modified_at: 2022-07-05
 ---
 # Resources for Webmasters
-I'm a webmaster; one who is in charge of a website. Here are some resources for webmasters or aspiring webmasters!
+I'm a webmaster; one who is in charge of a website. I have also been called an HTML goddess and a powerful CSS mage :p  
+Here are some resources for webmasters or aspiring webmasters!
 
 ## External resources
 Here are some useful resources if you wish to learn <abbr title="HyperText Markup Language">HTML</abbr>, the language of the Web, or if you wish to improve your existing HTML skills.
@@ -12,6 +13,7 @@ Here are some useful resources if you wish to learn <abbr title="HyperText Marku
 - [The Cave Of Dragonflies' HTML guide](https://www.dragonflycave.com/html-guide) (HTML+CSS tutorial; great for beginners)
 - [Mozilla Developer Network's HTML Resources](https://developer.mozilla.org/en-US/docs/Web/HTML) (tutorial and references)
 - [HTML Living Standard, Edition for Web Developers](https://html.spec.whatwg.org/dev/) (definitive reference)
+- [Web contrast checker](https://contrastchecker.com)
 - [Guide to using `alt` text](https://www.w3.org/WAI/tutorials/images/)
 
 ## Webmastery tutorials I've made:
