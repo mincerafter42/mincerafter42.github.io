@@ -13,6 +13,7 @@ Here are some useful resources if you wish to learn <abbr title="HyperText Marku
 - [The Cave Of Dragonflies' HTML guide](https://www.dragonflycave.com/html-guide) (HTML+CSS tutorial; great for beginners)
 - [Mozilla Developer Network's HTML Resources](https://developer.mozilla.org/en-US/docs/Web/HTML) (tutorial and references)
 - [HTML Living Standard, Edition for Web Developers](https://html.spec.whatwg.org/dev/) (definitive reference)
+- [HTMHell](https://www.htmhell.dev/) common webdev mistakes and how to correct them
 - [Can I Use...](https://caniuse.com/) tells you which browsers support which features
 - [Web contrast checker](https://contrastchecker.com)
 - [Guide to using `alt` text](https://www.w3.org/WAI/tutorials/images/)
