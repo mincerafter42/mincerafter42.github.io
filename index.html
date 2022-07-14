@@ -47,6 +47,8 @@ ul.buttons li {display:inline}
 .flashy a:hover, .flashy a:focus {
 	background: center / 100% 100% no-repeat url('assets/pointy.svg');
 }
+a + .moreinfo {position:absolute;background-color:#ffc;color:#000;border:1px #000 solid;font-family:ui-sans-serif, sans-serif;font-size:10pt;padding:2px;}
+a:not(:hover):not(:focus) + .moreinfo {left:-9999px;}
 .cuddler-webring {
 	width:376px;
 	background-color: #ffd8d8;
@@ -68,15 +70,15 @@ Internet Rando Extraordinaire!
 </div>
 <br>
 <nav class="flashy outset">
-With such a diversity of interests as...
+With such a diversity of webpages as...
 <ul>
-<li><a href=about>Herself</a>
+<li><a href=about>Herself</a> <div class=moreinfo>My stats, interests, and contact method</div>
 <li><a href=portfolio>Digital projects</a>
 <li><a href=crafts>Crafts</a>
 <li><a href=cuddle>Cuddling</a>
 <li><a href=other-web-sites>Web Sites</a>
 <li><a href=webmastery>Webmastery</a>
-<li><a href=fun>Fun</a>
+<li><a href=fun>Fun</a> <div class=moreinfo>Site awards, quiz results, and other assorted fun things</div>
 <li><a href=misc>Miscellaneous</a>
 </ul>
 </nav>
