@@ -1,9 +1,9 @@
 ---
-title: Cool/Useful Links
-last_modified_at: 2022-07-14
+title: Interesting Links
+last_modified_at: 2022-07-19
 ---
 
-On this page you can find links to websites which I think are cool or useful. This is not a complete comprehensive list.  
+On this page you can find links to websites which I think are cool or useful or just interesting. This is not a complete comprehensive list.  
 As a guideline for websurfers, I have attempted to rate these sites with [Mab's Land's Web ratings](http://www.mabsland.com/Adoption.html).
 (If there's no rating, that means I haven't tried to rate it)
 If a webpage conatins its own content warnings those should take precedence over mine.
@@ -86,8 +86,9 @@ a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! 
 - (PG) [Lemon Demon](http://lemondemon.com)
 - (14) [Tom Lehrer](https://tomlehrersongs.com)
 
-## Other cool sites
+## Other interesting sites
 - [IERS Bulletin C](https://hpiers.obspm.fr/eoppc/bul/bulc/) when you gotta implement leap seconds
+- [seximal](https://www.seximal.net)
 - ![](/assets/caveofdragonflies-banner.jpg){:style="float:right"}
 (G; some higher-rated content which provides its own warnings) [The Cave of Dragonflies](https://dragonflycave.com),
 a website I found in the early 2010s. It is very much a Pokémon website, with info about Pokémon games as well as interactive content utilising the power of JavaScript, and a bit about websites themselves. This was great for early-2010s me because they lived and breathed Pokémon. Breathing Pokémon may have been unhealthy for my respiratory system.
