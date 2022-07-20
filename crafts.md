@@ -4,6 +4,7 @@ last_modified_at: 2022-06-02
 ---
 While I don't frequently make use of them, knitting and sewing are some hobbies of mine.
 
+- [I knitted gay fingerless gloves](/2022/07/19/gay-gloves)
 - [I knitted some enby flags once](/2020/12/10/enby-flags-some-assembly-required)
 - I made a skirt for my friend once.
   {% for post in site.tags.skirt2020 %}
