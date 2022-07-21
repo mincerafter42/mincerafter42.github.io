@@ -23,6 +23,8 @@ This list may be incomplete. If there's a cool thing I did that I forgot about, 
   {:reversed="true"}
 
 ### Janky kludges you should use
+- [make-parent.sh](/assets/make-parent.sh), a shell script for joining the heads of 2 or more e-mail threads. Code of the day 2022-07-20.  
+  Fabian was impressed with the amount of `sed` syntax I learned in one day.
 - [gifthermal](/2022/01/15/gifthermal.c), a tool to visualize the compression efficiency of GIF images, inspired by pngthermal. Published 2022-01-15.
   - The prequel: A [gif library in Python](/2021/11/04-gif-library-or-whatever)
 - [The Picrew Downloader browser extension](https://github.com/mincerafter42/picrew-downloader), not very polished but functional; downloads the layered images from Picrew in OpenRaster format. Released 2021-04-18.
