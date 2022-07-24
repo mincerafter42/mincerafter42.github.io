@@ -1,6 +1,6 @@
 ---
 title: Interesting Links
-last_modified_at: 2022-07-19
+last_modified_at: 2022-07-24
 ---
 
 On this page you can find links to websites which I think are cool or useful or just interesting. This is not a complete comprehensive list.  
@@ -53,6 +53,7 @@ Likely require Javascript and eyes.
 ### Installable software (G unless indicated otherwise)
 Unless indicated otherwise, software is free, libre, available on Linux, Windows, and MacOS.
 
+- [7-zip](https://www.7-zip.org) compress and decompress files in the 7z format
 - [Blender](https://blender.org), for 3D animation
 - [Claws Mail](https://www.claws-mail.org/), a small and barebones e-mail client
 - [enve](https://maurycyliebner.github.io/), for 2D animation (in development) (Windows and Linux only)
@@ -87,8 +88,9 @@ a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! 
 - (14) [Tom Lehrer](https://tomlehrersongs.com)
 
 ## Other interesting sites
+- [Foxkeh](https://foxkeh.com/), a Firefox promotion mascot.
 - [IERS Bulletin C](https://hpiers.obspm.fr/eoppc/bul/bulc/) when you gotta implement leap seconds
-- [seximal](https://www.seximal.net)
+- [seximal](https://www.seximal.net), wherein this Misali person tells you base 6 is good.
 - ![](/assets/caveofdragonflies-banner.jpg){:style="float:right"}
 (G; some higher-rated content which provides its own warnings) [The Cave of Dragonflies](https://dragonflycave.com),
 a website I found in the early 2010s. It is very much a Pokémon website, with info about Pokémon games as well as interactive content utilising the power of JavaScript, and a bit about websites themselves. This was great for early-2010s me because they lived and breathed Pokémon. Breathing Pokémon may have been unhealthy for my respiratory system.

@@ -1,7 +1,7 @@
 ---
 title: Webmastery
 layout: default
-last_modified_at: 2022-07-06
+last_modified_at: 2022-07-24
 ---
 # Resources for Webmasters
 I'm a webmaster; one who is in charge of a website. I have also been called an HTML goddess and a powerful CSS mage :p  
@@ -23,3 +23,7 @@ Here are some useful resources if you wish to learn <abbr title="HyperText Marku
 - [Accessible CSS navigation dropdown](/tutorial/accessible-css-dropdown)
 - [How to make a webring](/tutorial/webring) (via setting up a new website on Netlify)
 - [Pseudo-Monthly Archives on Jekyll with GitHub Pages](/2020/11/24/pseudo-monthly-archives-on-jekyll-with-github-pages) (only applies to Jekyll with GitHub pages)
+
+## Webhosts
+Looking to get your website online? Most webmasters are probably aware of hosts such as Neocities, Netlify, Github Pages, Gitlab pages... but what about niche webhosts which could use more attention?
+Well the only one I currently know of is [Furtopia](https://furtopia.org/application.html), wherein websites must primarily focus on furry art.
