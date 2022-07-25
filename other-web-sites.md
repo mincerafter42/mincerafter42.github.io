@@ -1,6 +1,6 @@
 ---
 title: Interesting Links
-last_modified_at: 2022-07-24
+last_modified_at: 2022-07-25
 ---
 
 On this page you can find links to websites which I think are cool or useful or just interesting. This is not a complete comprehensive list.  
@@ -95,6 +95,7 @@ a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! 
 (G; some higher-rated content which provides its own warnings) [The Cave of Dragonflies](https://dragonflycave.com),
 a website I found in the early 2010s. It is very much a Pokémon website, with info about Pokémon games as well as interactive content utilising the power of JavaScript, and a bit about websites themselves. This was great for early-2010s me because they lived and breathed Pokémon. Breathing Pokémon may have been unhealthy for my respiratory system.
 - {:style="clear:right"} [The Geometry Center](http://www.geom.uiuc.edu/)
+- [The Road to RSS 3.0](http://www.aaronsw.com/weblog/000574)
 - (I haven't checked it all) [Ultimate List of ASCII Art Sites](https://web.archive.org/web/20010406061744if_/http://www.geocities.com:80/SoHo/2695/links.htm), a cool piece of Internet history.
 
 ## It's the World Wide Web
