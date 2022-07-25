@@ -1,7 +1,8 @@
 ---
 title: Things I Have Said Which May Be Mildly Humorous Out Of Context
-last_modified_at: 2022-07-13
+last_modified_at: 2022-07-24
 ---
+- we're here, we're queer, we can't drink beer, finding a career fills us with fear
 - remember kids, if there's both a CSS solution and a JS solution, take the CSS solution \*hops on a motorcycle and rides away into the sunset\* \*(in reality i am not licensed to operate any motor vehicle but just ignore that ok)\*
 - ...i summarized my life from grade 2-12 because i recently reëstablished contact with a former grade 2 classmate and i realize i may sound incredibly overpowered in my summary  
   "i won a spelling contest without practicing lol"  
