@@ -97,6 +97,7 @@ a website I found in the early 2010s. It is very much a Pokémon website, with i
 - {:style="clear:right"} [The Geometry Center](http://www.geom.uiuc.edu/)
 - [The Road to RSS 3.0](http://www.aaronsw.com/weblog/000574)
 - (I haven't checked it all) [Ultimate List of ASCII Art Sites](https://web.archive.org/web/20010406061744if_/http://www.geocities.com:80/SoHo/2695/links.htm), a cool piece of Internet history.
+- [Xenia, the Linux mascot](https://xenia-linux-site.glitch.me/) two fox mascots in one list of hyperlinks? weird that it happened twice
 
 ## It's the World Wide Web
 {:.no_toc}
