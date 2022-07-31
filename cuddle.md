@@ -5,7 +5,10 @@ last_modified_at: 2022-07-01
 I love cuddling! I want to cuddle my friends! (but some of them don't want cuddles so I won't cuddle them) (and some of them aren't within cuddling distance)
 
 Of course, this website is part of the [Cuddler Webring](https://cuddler-webring.netlify.app/).  
-[«Cuddler Webring Previous](https://cuddler-webring.netlify.app/mincerafter42/previous) \| [Cuddler Webring Next»](https://cuddler-webring.netlify.app/mincerafter42/next)
+[«Cuddler Webring Previous](https://cuddler-webring.netlify.app/mincerafter42/previous) \| [Cuddler Webring Next»](https://cuddler-webring.netlify.app/mincerafter42/next)  
+What's a webring, you might ask? Well, imagine a bunch of cuddlers are sitting in a loop, and each cuddler is patting the head of the one on their left and of the one on their right.
+I want to do this 🥺  
+(And each cuddler represents a web site; each headpat represents a hyperlink.) :p
 {:style="text-align:center"}
 
 ## Cuddly geometry
