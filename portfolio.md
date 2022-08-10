@@ -1,7 +1,7 @@
 ---
 title: Digital Creations
 layout: default
-last_modified_at: 2022-06-03
+last_modified_at: 2022-08-10
 ---
 # Digital Stuff I've Made
 {:.no_toc}
@@ -23,11 +23,12 @@ This list may be incomplete. If there's a cool thing I did that I forgot about, 
   {:reversed="true"}
 
 ### Janky kludges you should use
+- [The Picrew Downloader Bookmarklets](/picrew-download-bookmarklet/), which download the layered images from Picrew in the OpenRaster format. Released 2022-08-10.
+  - This is a remake of [the Picrew Downloader browser extension](https://github.com/mincerafter42/picrew-downloader), released 2021-04-18, but it's better as bookmarklets I decided.
 - [make-parent.sh](/assets/make-parent.sh), a shell script for joining the heads of 2 or more e-mail threads. Code of the day 2022-07-20.  
   Fabian was impressed with the amount of `sed` syntax I learned in one day.
 - [gifthermal](/2022/01/15/gifthermal.c), a tool to visualize the compression efficiency of GIF images, inspired by pngthermal. Published 2022-01-15.
   - The prequel: A [gif library in Python](/2021/11/04-gif-library-or-whatever)
-- [The Picrew Downloader browser extension](https://github.com/mincerafter42/picrew-downloader), not very polished but functional; downloads the layered images from Picrew in OpenRaster format. Released 2021-04-18.
 - I took the Computer Programming class in my high school, and here is the best work I did from there. These are all Python 3 programs from circa 2021-03.
   - A [text adventure game where you play as a dragon meeting a human](/assets/python-for-school/dragon, by vivi.py). The _example_ shown to the class was a game where the player character was a human, and the only two outcomes were a dragon sharing treasure with them or a dragon eating them. I expanded on that.
   - A [sorting algorithm visualizer](/assets/python-for-school/vivi turtle sorting.py). It uses turtle graphics because that was the assignment, but I've added a text display because my laptop can't use Python turtle graphics. I went way overboard on this; the actual assignment was just to display the list before and after sorting.
