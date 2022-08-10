@@ -1,6 +1,6 @@
 ---
 tag: update
-title: Picrew Downloader: This Time, It's Bookmarklet
+title: "Picrew Downloader: This Time, It's Bookmarklet"
 ---
 You may remember my [Picrew Downloader browser extension](/2021/04/18/picrew-downloader).
 Well now I've discovered bookmarklets and I've decided the Picrew Downloader would work better as a bookmarklet than as an extension. (technically two bookmarklets, one for downloading the current state and one for downloading the entire maker)
