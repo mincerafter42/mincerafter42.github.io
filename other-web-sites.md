@@ -1,6 +1,6 @@
 ---
 title: Interesting Links
-last_modified_at: 2022-08-14
+last_modified_at: 2022-08-15
 ---
 
 On this page you can find links to websites which I think are cool or useful or just interesting. This is not a complete comprehensive list.  
@@ -89,6 +89,7 @@ a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! 
 - (14) [Tom Lehrer](https://tomlehrersongs.com)
 
 ## Other interesting sites
+- [Don't Lie To Me About Web 2.0](https://accordion-druid.tumblr.com/post/685175656750972928/dont-lie-to-me-about-web-20) The original meaning of "Web 2.0" isn't how it's used today
 - [Foxkeh](https://foxkeh.com/), a Firefox promotion mascot.
 - [IERS Bulletin C](https://hpiers.obspm.fr/eoppc/bul/bulc/) when you gotta implement leap seconds
 - [PNG](http://www.libpng.org/pub/png/) <q>It's not every day you come across an image format and say, "<b>Outraaageous!</b>"</q>
