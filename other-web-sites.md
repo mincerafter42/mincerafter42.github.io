@@ -90,9 +90,10 @@ a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! 
 ## Other interesting sites
 - [Foxkeh](https://foxkeh.com/), a Firefox promotion mascot.
 - [IERS Bulletin C](https://hpiers.obspm.fr/eoppc/bul/bulc/) when you gotta implement leap seconds
+- [PNG](http://www.libpng.org/pub/png/) <q>It's not every day you come across an image format and say, "<b>Outraaageous!</b>"</q>
 - [seximal](https://www.seximal.net), wherein this Misali person tells you base 6 is good.
 - ![](/assets/caveofdragonflies-banner.jpg){:style="float:right"}
-(G; some higher-rated content which provides its own warnings) [The Cave of Dragonflies](https://dragonflycave.com),
+[The Cave of Dragonflies](https://dragonflycave.com),
 a website I found in the early 2010s. It is very much a Pokémon website, with info about Pokémon games as well as interactive content utilising the power of JavaScript, and a bit about websites themselves. This was great for early-2010s me because they lived and breathed Pokémon. Breathing Pokémon may have been unhealthy for my respiratory system.
 - {:style="clear:right"} [The Geometry Center](http://www.geom.uiuc.edu/)
 - [The Road to RSS 3.0](http://www.aaronsw.com/weblog/000574)
