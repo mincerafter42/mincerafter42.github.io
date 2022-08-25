@@ -5,6 +5,7 @@ last_modified_at: 2022-06-02
 ---
 # Content which doesn't really fit in any other category of my web site
 
+- [Super Internet Search!](/super-search.html)
 - A dive into obscure web logos
   2. [Part 2](/2021/10/06/obscure-web-logos-part-2)
   1. [Part 1](/2021/09/27/obscure-web-logos)
