@@ -52,6 +52,7 @@ a:focus img {background-color:#ff28ff;padding:2px;}
 code {
 	font-family:monospace;
 	font-size: .9em;
+	color: #ff3;
 }
 pre {
 	overflow-x: auto;
