@@ -5,6 +5,7 @@ last_modified_at: 2022-06-02
 ---
 # Content which doesn't really fit in any other category of my web site
 
+- The [OPML feed-reader metadata extension](/2022/09/01/opml-feed-reader-metadata), existing in Thunderbird since around 2014 and documented since 2022
 - [Super Internet Search!](/super-search.html)
 - A dive into obscure web logos
   2. [Part 2](/2021/10/06/obscure-web-logos-part-2)
