@@ -81,6 +81,6 @@ Optional.
 
 [JSON]: https://json.org
 [OPML]: http://opml.org/
-[PURL RSS module]: https://web.resource.org/rss/1.0/modules/syndication/
+[PURL RSS module]: http://purl.org/rss/1.0/modules/syndication/
 [Thunderbird Mail]: https://www.thunderbird.net
 [XML namespace]: https://www.w3.org/TR/xml-names/
