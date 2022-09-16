@@ -1,5 +1,5 @@
 ---
-title: "OPML feed-reader metadata extension"
+title: "OPML feed-reader-settings extension"
 date: 2022-09-01 13:19:45 -0700
 ---
 
