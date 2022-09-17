@@ -92,7 +92,7 @@ a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! 
 ## Other interesting sites
 - [Don't Lie To Me About Web 2.0](https://accordion-druid.tumblr.com/post/685175656750972928/dont-lie-to-me-about-web-20) The original meaning of "Web 2.0" isn't how it's used today
 - [Foxkeh](https://foxkeh.com/), a Firefox promotion mascot.
-- [Getting Started with WWW (1992)](https://www.w3.org/History/1992/WWW/FAQ/Bootstrap.html) where can you find information on teh Web without actually using it?
+- [Getting Started with WWW (1992)](https://www.w3.org/History/1992/WWW/FAQ/Bootstrap.html) where can you find information on the Web without actually using it?
 - [IERS Bulletin C](https://hpiers.obspm.fr/eoppc/bul/bulc/) when you gotta implement leap seconds
 - [PNG](http://www.libpng.org/pub/png/) <q>It's not every day you come across an image format and say, "<b>Outraaageous!</b>"</q>
 - [seximal](https://www.seximal.net), wherein this Misali person tells you base 6 is good.
