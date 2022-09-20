@@ -1,6 +1,6 @@
 ---
 title: How to make a webring
-last_modified_at: 2022-06-29
+last_modified_at: 2022-09-20
 ---
 ## (With no JavaScript whatsoever, using Github, Jekyll, and Netlify)
 <aside>
@@ -38,13 +38,9 @@ These are just mandatory files Netlify needs to be able to use Jekyll.
 ~~~yml
 url: https://insert-your-url-here.invalid # replace with your webring's URL, which should end in .netlify.app (no slash afterwards)
 include: [_redirects]
-kramdown:
- syntax_highlighter: +nil+
- smart_quotes: "39,39,34,34"
 github_repo_url: https://insert-repository-url-here.invalid # replace with your repository's URL, which should begin with https://github.com/ and should also have no slash at the end
 ~~~
-Another mandatory Jekyll file, but you can customize it. Make sure to replace the URLs with your webring's URL and repository.  
-This one makes sure to include the `_redirects` file (discussed later), and disables syntax highlighting and smart quotes.
+Another mandatory Jekyll file, but you can customize it. Make sure to replace the URLs with your webring's URL and repository.
 
 ### `_data/members.csv`
 
