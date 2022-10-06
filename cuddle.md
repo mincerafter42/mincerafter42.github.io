@@ -35,8 +35,8 @@ Good for introducing the concept of a glomp. From <i>[El Goonish Shive](https://
 From <i>Still Sick</i>.
 
 ## A cuddly song {#a-cup-of-coffee-a-sandwich-and-you}
-I found the song <i>A Cup of Coffee, A Sandwich, and You</i> (1925); I think it's a nice cuddly song.  
-Here's the lyrics; you can find the melody elsewhere on the Internet as I don't have a convenient MIDI prepared.
+I found the song <i>A Cup of Coffee, A Sandwich, and You</i> (1925); I think it's a nice cuddly song.
+Here's the lyrics, and you can [download the melody (MIDI, not made by me)](assets/a-cup-of-coffee-a-sandwich-and-you.mid):
 
 > In the movie plays of nowadays  
 > a romance always must begin in June;  
