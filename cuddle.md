@@ -1,6 +1,6 @@
 ---
 title: Recreational Drugs? No Thanks, I Prefer Recreational Hugs
-last_modified_at: 2022-07-31
+last_modified_at: 2022-10-05
 ---
 I love cuddling! I want to cuddle my friends! (but some of them don't want cuddles so I won't cuddle them) (and some of them aren't within cuddling distance)
 
@@ -33,6 +33,27 @@ Good for introducing the concept of a glomp. From <i>[El Goonish Shive](https://
 
 ![Tired... Want cuddles...](/assets/cuddles.png)  
 From <i>Still Sick</i>.
+
+## A cuddly song {#a-cup-of-coffee-a-sandwich-and-you}
+I found the song <i>A Cup of Coffee, A Sandwich, and You</i> (1925); I think it's a nice cuddly song.  
+Here's the lyrics; you can find the melody elsewhere on the Internet as I don't have a convenient MIDI prepared.
+
+> In the movie plays of nowadays  
+> a romance always must begin in June;  
+> tales in magazines have all their scenes  
+> of love laid in a garden 'neath the moon,  
+> but I don't miss that kind of bliss;  
+> what I want is this:  
+> A cup of coffee, a sandwich, and you,  
+> a cozy corner, a table for two,  
+> a chance to whisper, and cuddle, and coo,  
+> with lots of hugging and kissing in view.  
+> I don't need music, lobster, or wine  
+> whenever your eyes look into mine.  
+> The things I long for are simple and few:  
+> a cup of coffee, a sandwich, and you.
+
+(I don't actually drink coffee, nor frequently eat sandwiches, nor experience romantic attraction, but i like the affection & the sentiment)
 
 ## Cuddly links
 - [Mazeguy Smilies - Romantic](http://www.mazeguy.net/romantic.html) includes some hug & nuzzle smilies
