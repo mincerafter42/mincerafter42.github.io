@@ -1,6 +1,6 @@
 ---
 title: Recreational Drugs? No Thanks, I Prefer Recreational Hugs
-last_modified_at: 2022-10-05
+last_modified_at: 2022-10-06
 ---
 I love cuddling! I want to cuddle my friends! (but some of them don't want cuddles so I won't cuddle them) (and some of them aren't within cuddling distance)
 
@@ -35,14 +35,15 @@ Good for introducing the concept of a glomp. From <i>[El Goonish Shive](https://
 From <i>Still Sick</i>.
 
 ## A cuddly song {#a-cup-of-coffee-a-sandwich-and-you}
-I found the song <i>A Cup of Coffee, A Sandwich, and You</i> (1925); I think it's a nice cuddly song.
+I found the song <i>A Cup of Coffee, A Sandwich, and You</i> (1925); I think it's a nice cuddly song.  
 Here's the lyrics, and you can [download the melody (MIDI, not made by me)](assets/a-cup-of-coffee-a-sandwich-and-you.mid):
 
 > In the movie plays of nowadays  
 > a romance always must begin in June;  
 > tales in magazines have all their scenes  
 > of love laid in a garden 'neath the moon,  
-> but I don't miss that kind of bliss;  
+> but I don't miss  
+> that kind of bliss;  
 > what I want is this:  
 > A cup of coffee, a sandwich, and you,  
 > a cozy corner, a table for two,  
