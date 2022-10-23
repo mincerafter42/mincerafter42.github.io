@@ -8,15 +8,15 @@
 <animate attributeName="r" values=".6;4;.6" dur="5" repeatCount="indefinite"/>
 </circle>
 <path d="m5 1a4 4 0 0 0 0 8z">
-<animate attributeName="d" dur="5" repeatCount="indefinite" values="
-m5 1a4 4 0 0 1 0 8 4 4 0 0 1 0-8z;
-m5 1a0 4 0 0 1 0 8 4 4 0 0 1 0-8z;
-m5 1a0 4 0 0 0 0 8 4 4 0 0 1 0-8z;
-m5 1a4 4 0 0 0 0 8 4 4 0 0 1 0-8z;
-m5 1a4 4 0 0 1 0 8 4 4 0 0 0 0-8z;
-m5 1a4 4 0 0 1 0 8 0 4 0 0 0 0-8z;
-m5 1a4 4 0 0 1 0 8 0 4 0 0 1 0-8z;
-m5 1a4 4 0 0 1 0 8 4 4 0 0 1 0-8z"
+<animate attributeName="d" dur="5" repeatCount="indefinite" values="m
+5 1a4 4 0 0 1 0 8 4 4 0 0 1 0-8z;m
+5 1a0 4 0 0 1 0 8 4 4 0 0 1 0-8z;m
+5 1a0 4 0 0 0 0 8 4 4 0 0 1 0-8z;m
+5 1a4 4 0 0 0 0 8 4 4 0 0 1 0-8z;m
+5 1a4 4 0 0 1 0 8 4 4 0 0 0 0-8z;m
+5 1a4 4 0 0 1 0 8 0 4 0 0 0 0-8z;m
+5 1a4 4 0 0 1 0 8 0 4 0 0 1 0-8z;m
+5 1a4 4 0 0 1 0 8 4 4 0 0 1 0-8z"
 keyTimes="0;.25;.25;.5;.5;.75;.75;1"/>
 </path>
 </g>
