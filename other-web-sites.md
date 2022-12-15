@@ -85,7 +85,7 @@ a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! 
 
 ## Music
 - (PG; mostly G with a few outliers) [Bill Wurtz](https://billwurtz.com)
-- (G) [Seeburg 1000 Background Music Radio](http://74.82.59.197:8351/stream/%3b) (live!)
+- (G) [Seeburg 1000 Background Music Radio](https://psn3.prostreaming.net/proxy/seeburg/stream/%3b) (live!)
 - (PG) [Lemon Demon](http://lemondemon.com)
 - (14) [Tom Lehrer](https://tomlehrersongs.com)
 
