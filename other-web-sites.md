@@ -1,6 +1,6 @@
 ---
 title: Interesting Links
-last_modified_at: 2022-12-15
+last_modified_at: 2022-12-18
 ---
 
 On this page you can find links to websites which I think are cool or useful or just interesting. This is not a complete comprehensive list.  
@@ -19,6 +19,8 @@ If a webpage conatins its own content warnings those should take precedence over
 ## Friends
 - [delovely](https://delovely.neocities.org)  
   Di, a friendly fellow webring member and cuddle appreciator
+- [Runegod](https://runegod.net/)  
+  a cool guy. he makes comic on the world wide web.
 - [Maplestrip's Maple Tree](http://maplestrip.space)  
   My friend Maplestrip. We both read the webcomic El Goonish Shive (found in this very list) and have recorded together on a few podcast episodes.
 
