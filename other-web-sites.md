@@ -1,6 +1,6 @@
 ---
 title: Interesting Links
-last_modified_at: 2022-12-18
+last_modified_at: 2022-12-19
 ---
 
 On this page you can find links to websites which I think are cool or useful or just interesting. This is not a complete comprehensive list.  
@@ -51,6 +51,7 @@ Likely require Javascript and eyes.
 - [<abbr title="Hue Chroma Luma">HCL</abbr> Wizard](https://hclwizard.org/) Various tools for working with the Hue Chroma Luma colour space and designing with colourblindness in mind.
 - [jisho](https://jisho.org) when you gotta figure out what some japanese text says
 - [Just Solve The File Format Problem](http://fileformats.archiveteam.org/), a wiki of file format information.
+- [OpenStreetMap](https://www.openstreetmap.org) open data world map
 - [RegEx Pal](https://regexpal.com) regex tester and cheat sheet
 - [whois querier](https://www.bgreco.net/whois) (if you have Unix/Linux you can just use the `whois` command instead)
 
