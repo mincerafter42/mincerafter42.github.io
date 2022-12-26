@@ -1,6 +1,6 @@
 ---
 title: Interesting Links
-last_modified_at: 2022-12-19
+last_modified_at: 2022-12-26
 ---
 
 On this page you can find links to websites which I think are cool or useful or just interesting. This is not a complete comprehensive list.  
@@ -93,7 +93,8 @@ a webcomic by Dan Shive that's been going since 2002. It has magic! And gender! 
 - (PG; mostly G with a few outliers) [Bill Wurtz](https://billwurtz.com)
 - (G) [Seeburg 1000 Background Music Radio](https://psn3.prostreaming.net/proxy/seeburg/stream/%3b) (live!)
 - (PG) [Lemon Demon](http://lemondemon.com)
-- (14) [Tom Lehrer](https://tomlehrersongs.com)
+- (14) [Tom Lehrer](https://tomlehrersongs.com)  
+  [Songs from <i>The Physical Revue</i>](https://web.archive.org/web/1/http://www.haverford.edu/physics-astro/songs/lehrer/physrev.htm)
 
 ## Other interesting sites
 - [Don't Lie To Me About Web 2.0](https://accordion-druid.tumblr.com/post/685175656750972928/dont-lie-to-me-about-web-20) The original meaning of "Web 2.0" isn't how it's used today
