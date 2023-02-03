@@ -8,17 +8,12 @@
 <animate attributeName="r" values=".6;4;.6" dur="5" repeatCount="indefinite"/>
 </circle>
 <path d="m5 1a4 4 0 0 0 0 8z">
-<animate attributeName="d" dur="5" repeatCount="indefinite" values="m
-5 1a4 4 0 0 1 0 8 4 4 0 0 1 0-8z;m
-5 1a0 4 0 0 1 0 8 4 4 0 0 1 0-8z;m
-5 1a0 4 0 0 0 0 8 4 4 0 0 1 0-8z;m
-5 1a4 4 0 0 0 0 8 4 4 0 0 1 0-8z;m
-5 1a4 4 0 0 1 0 8 4 4 0 0 0 0-8z;m
-5 1a4 4 0 0 1 0 8 0 4 0 0 0 0-8z;m
-5 1a4 4 0 0 1 0 8 0 4 0 0 1 0-8z;m
-5 1a4 4 0 0 1 0 8 4 4 0 0 1 0-8z"
-keyTimes="0;.25;.25;.5;.5;.75;.75;1"/>
+<animate attributeName="d" dur="5" repeatCount="indefinite" calcMode="discrete" values="m5 1a4 4 0 0 0 0 8z;m5 1a4 4 0 0 1 0 8z"/>
 </path>
+<ellipse rx="0" ry="4" cx="5" cy="5">
+<animate attributeName="rx" dur="2.5" repeatCount="indefinite" values="4;0;4"/>
+<animate attributeName="fill" dur="5" calcMode="discrete" repeatCount="indefinite" values="#ede374;#16465e;#16465e;#ede374"/>
+</ellipse>
 </g>
 <g fill="#fff" text-anchor="middle" font-size="1.3" font-family="'Atkinson Hyperlegible',sans-serif">
 <text x="5" y="11">Normal moon</text>
