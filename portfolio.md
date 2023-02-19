@@ -43,7 +43,6 @@ This list may be incomplete. If there's a cool thing I did that I forgot about, 
 
 ## Media
 - [vintafade.gif](/assets/vintafade.gif) (2021-05-26). it's just a gif of a box of vinta fading, showing what happens to boxes of vinta left near me (the vinta disappears via me eating it all :p )
-- [The webcomic Fillbert](https://mincerafter42.github.io/fillbert), an ongoing webcomic with slightly obscure Web technologies featuring this spherical cat and myself and my friends. First comic released 2021-05-24.
 - I animated [a video about the PNG image format.](/2021/04/12/png). Published 2021-04-12.
   - The prequel: [A brief foray into animated PNG](/2020/12/04/a-brief-foray-into-animated-png) (2020-12-04)
 - I was on [a podcast hosted by my friend Maple](https://anchor.fm/maplestrip/episodes/Not-a-Date-at-the-Magic-Comic-Book-Shop-w-Viatrix-emq1ll). I don't remember most of what happened but that's cool. The episode was released 2020-11-20.
