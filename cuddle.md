@@ -1,6 +1,6 @@
 ---
 title: Recreational Drugs? No Thanks, I Prefer Recreational Hugs
-last_modified_at: 2022-10-06
+last_modified_at: 2023-03-15
 ---
 I love cuddling! I want to cuddle my friends! (but some of them don't want cuddles so I won't cuddle them) (and some of them aren't within cuddling distance)
 
@@ -33,6 +33,11 @@ Good for introducing the concept of a glomp. From <i>[El Goonish Shive](https://
 
 ![Tired... Want cuddles...](/assets/cuddles.png)  
 From <i>Still Sick</i>.
+
+## A cuddly emoticon
+
+<blockquote>(　´Д｀)ﾉ(´･ω･`)　ﾅﾃﾞﾅﾃﾞ</blockquote>
+*the headpat emoticon*
 
 ## A cuddly song {#a-cup-of-coffee-a-sandwich-and-you}
 I found the song <i>A Cup of Coffee, A Sandwich, and You</i> (1925); I think it's a nice cuddly song.  
