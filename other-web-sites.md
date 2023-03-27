@@ -1,6 +1,6 @@
 ---
 title: Interesting Links
-last_modified_at: 2022-12-26
+last_modified_at: 2023-03-27
 ---
 
 On this page you can find links to websites which I think are cool or useful or just interesting. This is not a complete comprehensive list.  
@@ -53,6 +53,7 @@ Likely require Javascript and eyes.
 - [Just Solve The File Format Problem](http://fileformats.archiveteam.org/), a wiki of file format information.
 - [OpenStreetMap](https://www.openstreetmap.org) open data world map
 - [RegEx Pal](https://regexpal.com) regex tester and cheat sheet
+- [TinEye](https://tineye.com/): find images online identical to a given image
 - [whois querier](https://www.bgreco.net/whois) (if you have Unix/Linux you can just use the `whois` command instead)
 
 ### Installable software (G unless indicated otherwise)
