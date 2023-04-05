@@ -1,6 +1,6 @@
 ---
 title: Interesting Links
-last_modified_at: 2023-03-27
+last_modified_at: 2023-04-05
 ---
 
 On this page you can find links to websites which I think are cool or useful or just interesting. This is not a complete comprehensive list.  
@@ -23,6 +23,8 @@ If a webpage conatins its own content warnings those should take precedence over
   a cool guy. he makes comic on the world wide web.
 - [Maplestrip's Maple Tree](http://maplestrip.space)  
   My friend Maplestrip. We both read the webcomic El Goonish Shive (found in this very list) and have recorded together on a few podcast episodes.
+- [The Mainframe](https://sinclair-speccy.github.io/The-Mainframe/)  
+  some fellow lepidopteran appreciators.
 
 ## Useful utilities
 Likely require Javascript and eyes.
