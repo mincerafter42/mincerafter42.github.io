@@ -1,13 +1,10 @@
 ---
 title: How to make a webring
-last_modified_at: 2022-09-20
+last_modified_at: 2023-04-05
 ---
 ## (With no JavaScript whatsoever, using Github, Jekyll, and Netlify)
-<aside>
+
 <img src="/assets/goldring.gif" alt="" style="float:left"/>
-This tutorial is sadgrl approved.<br/>
-<q>you def should [make this tutorial] because my method is awful lmao</q><br/>-sadgrl, 2022-05-23
-</aside>
 
 [Webrings](https://en.wikipedia.org/wiki/Webring) are cool! However, I notice some webring tutorials are entirely dependent on JavaScript to make the webring function.
 That's not good; JavaScript should have a fallback as gracefully as possible, and "nonfunctional" is not a graceful fallback.  
@@ -24,15 +21,19 @@ Create a <b>GitHub repository</b> (it can be private so you can experiment aroun
 ## Files you need in the repository
 
 ### `Gemfile`
+Create a file named `Gemfile` containing the following text:
 
     source "https://rubygems.org"
     gem 'jekyll'
 
+This is just a mandatory file Netlify needs in order to use Jekyll.
+
 ### `.ruby-version`
+Create a file named `.ruby-version` containing the following text (every file listed here is the name of the file followed by the text to put inside it)
 
     2.4.3
 
-These are just mandatory files Netlify needs to be able to use Jekyll.
+This is just another mandatory file for Netlify to use Jekyll.
 
 ### `_config.yml`
 ~~~yml
@@ -129,7 +130,7 @@ layout: html
 <h2>Criteria to join</h2>
 <ul>
 <li>Insert the criteria to join the webring here.
-<li>I suggest a policy on clearly marking any NSFW content.
+<li>I suggest a policy on clearly marking any NSFW content (there are kids on the World Wide Web, after all. And adults at work.).
 <li>and having no hate speech or bigotry.
 <li>and not being advertisement-focused.
 </ul>
