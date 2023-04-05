@@ -10,9 +10,10 @@ last_modified_at: 2023-04-05
 That's not good; JavaScript should have a fallback as gracefully as possible, and "nonfunctional" is not a graceful fallback.  
 To counter this, I'm making my own webring tutorial. This is based on the framework I built for my Cuddler Webring.
 
-For this tutorial, you need a <b>GitHub account</b> and a <b>Netlify account</b>.
-Netlify also supports GitLab, BitBucket, and Azure DevOps, so you can use one of those instead, but some URLs may need to change.
-This tutorial assumes you want users to be able to join via pull request, but if you don't, you could keep the repository on Netlify itself.  
+For this tutorial, you need a <b>Netlify account</b> and a <b>repository for the webring</b> (which can be on Netlify itself).  
+Netlify also supports GitHub, GitLab, BitBucket, and Azure DevOps for repositories.
+**This tutorial assumes** your webring is hosted on a public GitHub repository and that you want users to be able to join via a pull request on the repository.
+Change your code accordingly for other cases.  
 **It is very helpful to be familiar with HTML.**  
 It is helpful but not necessary to be familiar with [Jekyll](https://jekyllrb.com/).
 
