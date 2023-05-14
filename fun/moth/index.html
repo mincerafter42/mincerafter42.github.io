@@ -1,0 +1,166 @@
+<!doctype html><html lang=en><meta charset=utf-8><meta name=color-scheme content="dark light">
+<meta name=viewport content="width=640, initial-scale=1">
+<script>
+document.addEventListener('DOMContentLoaded',function() {
+	// resize the viewport so 72-character-wide ASCII art will always fit. (there was no way to do this with only HTML/CSS)
+	document.getElementsByClassName('ref72')[0].style.display='inline-block';
+	document.getElementsByName('viewport')[0].content='width='+(document.getElementsByClassName('ref72')[0].offsetWidth+16)+', initial-scale=1';
+	document.getElementsByTagName('main')[0].style.columns=document.getElementsByClassName('ref72')[0].offsetWidth+'px 2';
+	document.getElementsByClassName('ref72')[0].style.display=null;
+	
+	// add "just like you!" to nocturnal paragraph if viewer is awake at night
+	if ((new Date().getHours()+4)%24<10) document.getElementsByClassName('nocturnal')[0].innerText+=' Just like you!'
+	
+	// put diæresifyer on page only if browser supports javascript
+	if(!String.prototype.normalize) String.prototype.normalize=function() {return this}; //polyfill
+	document.getElementById('diæresifyer').parentNode.innerHTML+='<div id=diæ><label for=diæ-in>Text to add diæreses to:<br><textarea id=diæ-in onchange="document.getElementById(\'diæ-out\').textContent=this.value.replace(/[\\p{L}\\p{N}\\p{S}\\p{P}]/gu,\'$&\u0308\').normalize().replace(/ /g,\'\u00a8\')" onkeypress=this.onchange() onpaste=this.onchange() oninput=this.onchange()></textarea></label><output for=diæ-in>Result of adding diæreses:<br><textarea role=status id=diæ-out readonly></textarea></output></div>'
+	
+	// display mother's day countdown
+	function mothDayOf(year) {return new Date(year,4,14-new Date(year,4,7).getDay())}
+	const thisYear=new Date().getFullYear(), todayStart=new Date().setHours(0,0,0,0),
+	nextMothDay=mothDayOf(thisYear)-todayStart<0?mothDayOf(thisYear+1):mothDayOf(thisYear),
+	daysUntilNextMoth=Math.round((nextMothDay-todayStart)/864e5);
+	document.getElementsByClassName('countdown')[0].innerHTML+='<b>'+
+	(daysUntilNextMoth?daysUntilNextMoth+"</b> days until Mother's Day":"Today</b> is Mother's Day")
+	
+	// moth follows cursor when clicked
+	var mothInterval, mothTarget; // i'm aware `let` is best practice nowadays but i'm using `var` here ok
+	function mothFly(moth) {
+		const x = Number(moth.style.left.slice(0,-2) || document.body.offsetWidth-136)+68, y = Number(moth.style.top.slice(0,-2)||0)+61;
+		const direction = Math.atan2(mothTarget[1]-y,mothTarget[0]-x)
+		moth.style.transform = 'rotate('+(direction+3.94)+'rad)';
+		if (Math.pow(mothTarget[0]-x,2)+Math.pow(mothTarget[1]-y,2)>3025) {
+			moth.style.left = x + Math.cos(direction) - 68 + 'px';
+			moth.style.top = y + Math.sin(direction) - 61 + 'px';
+		}
+	}
+	document.getElementsByClassName('clickableMoth')[0].addEventListener('click',function(event) {
+		document.body.classList.toggle('mothMoving');
+		if (document.body.classList.contains('mothMoving')) {
+			mothTarget=[event.pageX, event.pageY];
+			mothInterval = setInterval(mothFly, 10, this);
+		}
+		else clearInterval(mothInterval);
+	});
+	document.body.addEventListener('mousemove', function(event) {
+		if (this.classList.contains('mothMoving')) mothTarget=[event.pageX, event.pageY];
+	})
+});
+</script>
+<style>
+body {background-color:#222;color:#fff; font-family: serif}
+main {columns: 640px 2; clear: both}
+footer {text-align: center}
+
+a {color:#9ccfff}
+a:hover, a:focus, a:active {font-style: italic; font-style: oblique}
+
+@media (prefers-color-scheme: light) {body {background-color:#eee;color:#000} a {color:#005458}}
+
+pre[role=img], article {break-inside: avoid}
+#diæ {display: flex; gap: 10px; break-inside: avoid}
+#diæ > * {flex-grow: 1}
+#diæ-in, #diæ-out {font-family: sans-serif; resize: none; height: 4em; width: 100%; box-sizing: border-box}
+.countdown {text-align:center} .countdown b {display:block;font-size:3em;text-transform:uppercase}
+
+.mothOnScreen {text-align: right}
+.clickableMoth {position:absolute;left: calc(100vw - 136px); top: 0}
+.mothMoving, .mothMoving * {cursor:url(lightbulb2.png) 10 15, default;}
+
+@media not screen {.mothOnScreen, .clickableMoth {display: none}}
+</style>
+<title>The Moth Zone</title>
+<header>
+<img class=clickableMoth src=moth⅙.png alt width=136 height=122>
+<span style=height:101px;width:128px;float:right></span>
+<h1>The Moth Zone</h1>
+<p>Full of facts and funny falsehoods featuring those 'forementioned fab floofy fliers.
+<p class=mothOnScreen><span lang=fr title="ceci n'est pas un papillon de nuit"><span lang=en>Oh no, there's a moth on your screen! <strong>Prankd</strong>, this is just an <em>image</em> of a moth!</span></span>
+</header>
+<main>
+<article>
+<h2 id=characteristics>Identifying Characteristics Of The Moth</h2>
+<p>While these identifying characteristics generally apply, exceptions do exist.
+<!-- hi, whoever's viewing the source. i was planning to have ascii art for all four of these but there's only two right now ok -->
+<h3 id=nocturnal>Nocturnal</h3>
+<p class=nocturnal>Moths are usually asleep during the day and awake at night.
+<pre role=img aria-label="A moth in a dark room stares at a glowing computer monitor." class=ref72>
+                                             _____
+                                            |     !,
+          _,--''''''--,_                   ,|     | '-,_
+.____,,-''  _,--''''''--!i---,_           !#|     |     ''-,,__
+!-,,____,-''  _,,--''''''      ',_        ##|     |            ''---..,
+ '-,_____,,-''   /           ____ \      ,##|     |                    |
+                /          ,'    \ \     ###|     |                    |
+               |          /      @  \    ###|     |                    |
+               |          \      /   \   ###|     |                    |
+               \           '...-'     \  ###|     |                    |
+          _,-''''--,_                 /  ###|     |                    |
+        ,'  ^        '-,             /   ###|     |                    |
+       /         ^    ^ ',          /    '##|     |                    |
+      /                   \'-..,___/      ##|     |                    |
+     //    ^      ',       \              !#|     |                    |
+    // ^            \  ^   _\              #|     |             __..--''
+   ///     ,         |     \               '|     |     __..--''
+  ///_     |         |   ^  \               |_____!.--''-,_       <abbr title="That's my ASCII-art-signature. (Get it? 6=&quot;vi&quot; in roman numerals)">660</abbr>
+ //  /  ^  |         |     _\               _,-'           '-,_
+//  /      \         | ^   \               /___________________\</pre>
+<h3 id=floofy>Floofy</h3>
+<p>Moths are fluffy which makes them look super huggable.
+<h3 id=antennæ>Fuzzy antennæ</h3>
+<pre role=img aria-label="Butterflies' antennæ are usually thin with a knob on the tip, whereas moths' antennæ are often fuzzier.">
+ Butterflies' antennae          whereas moths'
+are usually thin with a       antennae are often
+   knob on the tip,                fuzzier.
+             _                      _
+            [_)                    .\\".
+           //                      |=\\=`,
+          //                       |==\\==\
+         //                        |===\\==\
+        //                         '====\\==\
+        H                           \====H===,
+        H                           |====H===|
+        H                           '====H===|
+        H                            \===H===!  6
+        H                             \==H==/   6
+        H                              '=H='    0</pre>
+<h3 id=wings>Wings floop when resting</h3>
+When butterflies are at rest, their wings tend to point upward, while moths at rest tend to splay their wings.
+</article>
+<article>
+<h2 id=facts>Fun Moth Facts</h2>
+<ul>
+<li><p>The collective name for butterflies and moths is <dfn>lepidopterans</dfn>.
+<li><p>The reason moths are <a href=#floofy>floofy</a> might be to conserve heat during cold nights.
+<li><p>"Moth" in French is <i lang=fr>"papillon de nuit"</i>, which means "butterfly of the night". This makes moths sound like cooler butterflies.
+<li><p>Recent <a href=https://doi.org/10.1101/2023.04.11.536486>flight path motion capture research</a> shows insects turn their <em>backs</em> to lights while gathering at them. This means much imagery depicting moths staring at lights, including on this very webpage, is <strong>scientifically inaccurate dun dun dunnnn</strong>
+</ul>
+</article>
+<article>
+<h2 id=diæresifyer>Diæresifyer</h2>
+<p>For reasons I do not fully understand, diæreses are associated with moths. This diæresifyer will allow you to add diæreses to any text.
+<noscript>The diæresifyer needs JavaScript enabled to work.</noscript>
+</article>
+<article>
+<h2 id=day>Mother's Day (a joke)</h2>
+<p>Mother's Day is a day to celebrate the ones who are mothing, who mothed, and who will moth again.
+<br>Different countries celebrate Mother's Day on different dates, but the most widespread is the second Sunday of May.
+<div class=countdown></div>
+<h3>Mother's Day activities</h3>
+<ul>
+<li>Be a moth
+<li>Show appreciation to your nearest moth
+<li>Read a <a href=natalya-lobanova-moth-comic.html>Mother's Day comic</a>
+</ul>
+</article>
+<article>
+<h2 id=links>Moth Links</h2>
+<ul>
+<li><a href=quotes.html>Moth dialogues between myself and friends</a>
+<li><a href="https://www.youtube.com/embed/qGwnjFUHISU?rel=0&modestbranding=1">Disco moth (YouTube)</a>
+</ul>
+</article>
+</main>
+<footer>
+Last modified <time>2023</time>. <a href=https://mincerafter42.github.io>Return to Viatrix's home page</a>
+</footer>
