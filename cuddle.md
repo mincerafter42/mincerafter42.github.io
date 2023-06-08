@@ -1,6 +1,6 @@
 ---
 title: Recreational Drugs? No Thanks, I Prefer Recreational Hugs
-last_modified_at: 2023-03-15
+last_modified_at: 2023-06-08
 ---
 I love cuddling! I want to cuddle my friends! (but some of them don't want cuddles so I won't cuddle them) (and some of them aren't within cuddling distance)
 
@@ -62,6 +62,8 @@ Here's the lyrics, and you can [download the melody (MIDI, not made by me)](asse
 (I don't actually drink coffee, nor frequently eat sandwiches, nor experience romantic attraction, but i like the affection & the sentiment)
 
 ## Cuddly links
+Cuddle pages: where Web *de*velopment meets Web *en*velopment.
+
 - [Mazeguy Smilies - Romantic](http://www.mazeguy.net/romantic.html) includes some hug & nuzzle smilies
 - [The Big Collection of Love ASCII Art](http://loveascii.com) (formerly named The Cuddly Collection Of ASCII Art)
 - [The Nicest Place on the Internet](https://thenicestplace.net/)
