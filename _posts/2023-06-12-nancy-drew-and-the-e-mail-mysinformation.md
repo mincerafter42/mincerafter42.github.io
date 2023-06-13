@@ -1,12 +1,17 @@
 ---
 title: "Nancy Drew and the E-mail Mysinformation"
-date: 2023-06-12 14:21:22 -0700 
+date: 2023-06-12 14:21:22 -0700
+last_modified_at: 2023-06-13 05:56:26 -0700
 ---
 (Thanks to Fabian for that pun)
 
 So I read <i>Nancy Drew and the E-mail Mystery</i> (1998).
 Of course a book about the Internet from 1998 for general audiences is going to
-be outdated and assume the reader is unfamilar with the Internet, but what I
+be outdated and assume the reader is unfamilar with the Internet, and it often has
+unusual terminology, and the perpetrator's plan could have easily worked with any
+other file transfer medium, including exchanging physical storage devices in
+person, and also the mystery was solved by looking at an e-mail's `From` header
+to find out who it was from, but that's not what this page is about: what I
 list here are the instances of outright misinformation in this book. Enjoy :p
 
 1. This is not how e-mail works:
