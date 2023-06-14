@@ -1,7 +1,7 @@
 ---
 title: "Nancy Drew and the E-mail Mysinformation"
 date: 2023-06-12 14:21:22 -0700
-last_modified_at: 2023-06-13 05:56:26 -0700
+last_modified_at: 2023-06-14 10:11:01 -0700 
 ---
 (Thanks to Fabian for that pun)
 
@@ -37,4 +37,4 @@ list here are the instances of outright misinformation in this book. Enjoy :p
    > “Most mail programs filter out all this stuff,” Henry said. “But it's what tells the mail server how to route the mail, identifies each computer user who sends E-mail out, and where it went. Take a look.” He pointed to what looked to Nancy like a coded language.
 
    Now this is just E-MAIL HEADERS, the thing I can see on my e-mail client just by pressing CTRL+H.
-   The headers look to be in mbox format. They are sensible except for a missing space, an IPv4 address with six bytes instead of the usual four, and the fact that there's a `Received:` header when this is supposed to be the sender's log, not the recipient's.
+   The headers look to be in mbox format. They are sensible except for a missing space, an IPv4 address with six bytes instead of the usual four, and the fact that there's a `Received:` header when this is supposed to be the sender's log, not the recipient's. There are also no MIME headers whatsoever, which strikes me as unusual though it is technically possible.
