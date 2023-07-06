@@ -1,10 +1,11 @@
 ---
 title: Miscellaneous Content
 layout: default
-last_modified_at: 2022-06-02
+last_modified_at: 2023-07-06
 ---
 # Content which doesn't really fit in any other category of my web site
 
+- [A proposal to solve and/or further complicate the GIF pronunciation debate]({{'/gif-proposal/'|absolute_url}})
 - [Nancy Drew and the E-mail Mysinformation](/2023/06/12/nancy-drew-and-the-e-mail-mysinformation): Computer misinformation in <i>Nancy Drew and the E-mail Mystery</i> (1998).
 - The [OPML feed-reader metadata extension](/2022/09/01/opml-feed-reader-metadata), existing in Thunderbird since around 2014 and documented since 2022
 - [Super Internet Search!](/super-search.html)
