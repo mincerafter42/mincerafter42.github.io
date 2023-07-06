@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
 	font-family: "Atkinson Hyperlegible";
 	font-weight: normal;font-style: normal;
 	src: local("Atkinson Hyperlegible Regular"), local("AtkinsonHyperlegible-Regular"), url("assets/Atkinson-Hyperlegible-Regular-102.woff") format("woff");
@@ -17,7 +17,8 @@
 	font-family: "Atkinson Hyperlegible";
 	font-weight: bold;font-style: italic;
 	src: local("Atkinson Hyperlegible Bold Italic"), local("AtkinsonHyperlegible-BoldItalic"), url("assets/Atkinson-Hyperlegible-BoldItalic-102.woff") format("woff");
-}
+}*/
+@import url(https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i);
 body {
 	font-family: "Atkinson Hyperlegible", sans-serif;
 	color: #fff;
