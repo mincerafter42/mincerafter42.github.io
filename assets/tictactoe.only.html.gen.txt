@@ -1,0 +1,54 @@
+---
+layout: none
+permalink: /assets/tictactoe.only.html.gen.py
+---
+# 0 = empty, 1 = X, 2 = O
+winLines = ((0,1,2),(3,4,5),(6,7,8),(0,3,6),(1,4,7),(2,5,8),(0,4,8),(2,4,6))
+
+class invalidWin(Exception):
+	pass
+
+html=open('tictactoe.only.html','w')
+html.write('<!doctype html><meta charset=utf-8><title>Tic-tac-toe in HTML</title><pre>')
+for i in range(3**9):
+	boardNum = i
+	board = []
+	for j in range(9):
+		board.append(boardNum%3)
+		boardNum //= 3
+	# check board validity
+	Xcount = board.count(1)
+	Ocount = board.count(2)
+	if Xcount != Ocount and Xcount != Ocount + 1: continue
+	mostRecentTurn = 1 if Xcount > Ocount else 2
+	nextTurn = 2 if Xcount > Ocount else 1
+	won = False
+	try:	
+		potentialWinningTiles = set(range(9))
+		for line in winLines:
+			tilesInLine = {board[j] for j in line}
+			if len(tilesInLine)==1:
+				if (tilesInLine=={0}): continue
+				if (tilesInLine=={mostRecentTurn}):
+					won = True
+					potentialWinningTiles &= set(line)
+					if len(potentialWinningTiles)==0: raise invalidWin()
+				else: raise invalidWin()
+	except invalidWin: continue
+	# print board
+	tile = lambda n: (f'<a href=#{i+(nextTurn)*(3**n)}>…</a>' if not won else ' ','X','O')[board[n]]
+	html.write(f'<a name={i}></a>')
+	html.write(f'''
+{tile(0)} │ {tile(1)} │ {tile(2)}
+──┼───┼──
+{tile(3)} │ {tile(4)} │ {tile(5)}
+──┼───┼──
+{tile(6)} │ {tile(7)} │ {tile(8)}
+
+''')
+	if won: html.write(f"{(None,'X','O')[mostRecentTurn]} wins! <a href=#0>Reset board</a>")
+	elif 0 not in board: html.write(f"Tied. <a href=#0>Reset board</a>")
+	else: html.write(f"{(None,'X','O')[nextTurn]}'s turn")
+	html.write('\n' * 100)
+html.write('</pre>')
+html.close()
