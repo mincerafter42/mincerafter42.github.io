@@ -28,7 +28,7 @@ If you must refer to me by a title à la "Mr"/"Ms", choose the first available i
 2. "Misc." (short for Miscellaneous)
 3. "Miss" (should only be needed if you're some kind of old computer database)
 
-If you must refer to my by an honofiric à la "sir"/"ma'am", choose the first available item on this list:
+If you must refer to my by an honorific à la "sir"/"ma'am", choose the first available item on this list:
 
 1. No honorific
 2. "madam" (not "ma'am")
