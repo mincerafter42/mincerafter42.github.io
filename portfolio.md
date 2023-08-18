@@ -23,6 +23,7 @@ This list may be incomplete. If there's a cool thing I did that I forgot about, 
   {:reversed="true"}
 
 ### Janky kludges you should use
+- [RSS feed generator for the Rarebit webcomic framework](/2023/08/17/rss-in-rarebit)
 - [Tic-tac-toe in only HTML generation script](/2023/07/22/tic-tac-toe-in-html-better-than-gareth-heyes): Someone else made tic-tac-toe in only HTML, but it was overly redundant so I took it upon myself to make a nonredundant version.
 - [The Picrew Downloader Bookmarklets](/picrew-download-bookmarklet/), which download the layered images from Picrew in the OpenRaster format. Released 2022-08-10.
   - This is a remake of [the Picrew Downloader browser extension](https://github.com/mincerafter42/picrew-downloader), released 2021-04-18, but it's better as bookmarklets I decided.
