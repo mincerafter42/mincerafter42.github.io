@@ -17,7 +17,7 @@ https.get(url+'js/comic_settings.js',res=>{
 	res.on('data',data=>concat+=data);
 	res.on('end',()=>{ // here we have incredibly kludgy code
 		concat+=`
-			function writeDate(...args) {return new Date(...args).toUTCString()} // overwrite writeDate to RSS feed format
+			function writeDate(year, month, ...dayEtc) {return new Date(year, month-1, ...dayEtc).toUTCString()} // overwrite writeDate to RSS feed format
 			const realMaxPg = Math.max(maxpg,pgData.reduce((accum,current)=>Math.max(current.pgNum,accum),0)); // because SOMEONE didn't update their maxpg correctly
 			let rss='<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel>';
 			rss += '<title>'+entityEscape(title)+'</title>';
