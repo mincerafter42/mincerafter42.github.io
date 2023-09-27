@@ -1,6 +1,6 @@
 ---
 title: Recreational Drugs? No Thanks, I Prefer Recreational Hugs
-last_modified_at: 2023-06-08
+last_modified_at: 2023-09-27
 ---
 I love cuddling! I want to cuddle my friends! (but some of them don't want cuddles so I won't cuddle them) (and some of them aren't within cuddling distance)
 
@@ -39,9 +39,12 @@ From <i>Still Sick</i>.
 <blockquote>(　´Д｀)ﾉ(´･ω･`)　ﾅﾃﾞﾅﾃﾞ</blockquote>
 *the headpat emoticon*
 
-## A cuddly song {#a-cup-of-coffee-a-sandwich-and-you}
-I found the song <i>A Cup of Coffee, A Sandwich, and You</i> (1925); I think it's a nice cuddly song.  
-Here's the lyrics, and you can [download the melody (MIDI, not made by me)](assets/a-cup-of-coffee-a-sandwich-and-you.mid):
+## Cuddly songs
+Some nice cuddly songs I've found.
+### <i>A Cup of Coffee, a Sandwich, and You</i>
+<i>A Cup of Coffee, A Sandwich, and You</i> (1925) is a nice cuddly song.
+I don't actually drink coffee, nor frequently eat sandwiches, nor experience romantic attraction, but i like the affection & the sentiment.  
+Here's the lyrics, which can be played with the [<i>A Cup of Coffee, a Sandwich, and You</i> MIDI](assets/a-cup-of-coffee-a-sandwich-and-you.mid) file:
 
 > In the movie plays of nowadays  
 > a romance always must begin in June;  
@@ -59,7 +62,19 @@ Here's the lyrics, and you can [download the melody (MIDI, not made by me)](asse
 > The things I long for are simple and few:  
 > a cup of coffee, a sandwich, and you.
 
-(I don't actually drink coffee, nor frequently eat sandwiches, nor experience romantic attraction, but i like the affection & the sentiment)
+My favourite cover is [Nick Lucas' 1926 cover of <i>A Cup of Coffee, a Sandwich, and You</i> (MP3, archive.org, 2MB)](https://archive.org/download/NickLucasCollections1925-1934/ACupOfCoffeeASandwichAndYou1926NickLucastheCrooningTroubadour.mp3).
+
+### <i>Cuddle Up a Little Closer</i>
+<i>Cuddle Up a Little Closer, Lovey Mine</i> (1908) is another cuddly song. Lyrics follow:
+
+> Cuddle up a little closer, lovey mine,  
+> Cuddle up and be my little clinging vine,  
+> Like to feel your cheeks so rosy,  
+> Like to make you comfy, cozy,  
+> 'Cause I love from head to toes-y,  
+> Lovey mine.
+
+My favourite cover of this song is [Kay Armen's 1943 cover of <i>Cuddle Up a Little Closer</i> (MP3, archive.org, 4MB)](https://archive.org/download/78_cuddle-up-a-little-closer-lovey-mine_kay-armen-and-the-balladiers-karl-hoschna-ott_gbia0049143b/Cuddle%20Up%20a%20Little%20Closer%2C%20%20-%20Kay%20Armen%20And%20The%20Balladiers.mp3).
 
 ## Cuddly links
 Cuddle pages: where Web *de*velopment meets Web *en*velopment.
