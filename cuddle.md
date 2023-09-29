@@ -40,41 +40,9 @@ From <i>Still Sick</i>.
 *the headpat emoticon*
 
 ## Cuddly songs
-Some nice cuddly songs I've found.
-### <i>A Cup of Coffee, a Sandwich, and You</i>
-<i>A Cup of Coffee, A Sandwich, and You</i> (1925) is a nice cuddly song.
-I don't actually drink coffee, nor frequently eat sandwiches, nor experience romantic attraction, but i like the affection & the sentiment.  
-Here's the lyrics, which can be played with the [<i>A Cup of Coffee, a Sandwich, and You</i> MIDI](assets/a-cup-of-coffee-a-sandwich-and-you.mid) file:
-
-> In the movie plays of nowadays  
-> a romance always must begin in June;  
-> tales in magazines have all their scenes  
-> of love laid in a garden 'neath the moon,  
-> but I don't miss  
-> that kind of bliss;  
-> what I want is this:  
-> A cup of coffee, a sandwich, and you,  
-> a cozy corner, a table for two,  
-> a chance to whisper, and cuddle, and coo,  
-> with lots of hugging and kissing in view.  
-> I don't need music, lobster, or wine  
-> whenever your eyes look into mine.  
-> The things I long for are simple and few:  
-> a cup of coffee, a sandwich, and you.
-
-My favourite cover is [Nick Lucas' 1926 cover of <i>A Cup of Coffee, a Sandwich, and You</i> (MP3, archive.org, 2MB)](https://archive.org/download/NickLucasCollections1925-1934/ACupOfCoffeeASandwichAndYou1926NickLucastheCrooningTroubadour.mp3).
-
-### <i>Cuddle Up a Little Closer</i>
-<i>Cuddle Up a Little Closer, Lovey Mine</i> (1908) is another cuddly song. Lyrics follow:
-
-> Cuddle up a little closer, lovey mine,  
-> Cuddle up and be my little clinging vine,  
-> Like to feel your cheeks so rosy,  
-> Like to make you comfy, cozy,  
-> 'Cause I love from head to toes-y,  
-> Lovey mine.
-
-My favourite cover of this song is [Kay Armen's 1943 cover of <i>Cuddle Up a Little Closer</i> (MP3, archive.org, 4MB)](https://archive.org/download/78_cuddle-up-a-little-closer-lovey-mine_kay-armen-and-the-balladiers-karl-hoschna-ott_gbia0049143b/Cuddle%20Up%20a%20Little%20Closer%2C%20%20-%20Kay%20Armen%20And%20The%20Balladiers.mp3).
+<a name="a-cup-of-coffee-a-sandwich-and-you"></a>
+<a name="cuddle-up-a-little-closer"></a>
+Go to the [cuddle jukebox](jukebox) to hear some nice cuddly songs I've found.
 
 ## Cuddly links
 Cuddle pages: where Web *de*velopment meets Web *en*velopment.
