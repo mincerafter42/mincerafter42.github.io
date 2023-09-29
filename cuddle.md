@@ -1,6 +1,6 @@
 ---
 title: Recreational Drugs? No Thanks, I Prefer Recreational Hugs
-last_modified_at: 2023-09-27
+last_modified_at: 2023-09-29
 ---
 I love cuddling! I want to cuddle my friends! (but some of them don't want cuddles so I won't cuddle them) (and some of them aren't within cuddling distance)
 
@@ -42,7 +42,8 @@ From <i>Still Sick</i>.
 ## Cuddly songs
 <a name="a-cup-of-coffee-a-sandwich-and-you"></a>
 <a name="cuddle-up-a-little-closer"></a>
-Go to the [cuddle jukebox](jukebox) to hear some nice cuddly songs I've found.
+Go to the [cuddle jukebox](jukebox) to hear some nice cuddly songs I've found.  
+Though the songs may be romantic in nature, I am primarily a fan of platonic group cuddles. Haven't found any songs about those though.
 
 ## Cuddly links
 Cuddle pages: where Web *de*velopment meets Web *en*velopment.
