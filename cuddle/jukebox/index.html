@@ -57,7 +57,6 @@ body {
 	vertical-align:middle;
 	max-width: 100%;
 	position: relative;
-	/*background-image: url(jukebox-on.png);*/
 }
 .jukebox-offs {
 	background-color: #ccc;
@@ -97,23 +96,23 @@ body {
 	padding: 20px;
 	font-weight: 700;
 }
-.songs {
+.jukebox-select ul {
 	margin: -10px 0;
 	padding: 0;
 }
-.songs li {
+.jukebox-select li {
 	display: block;
 	background-color: #ffc;
 	position: relative;
 	margin: 10px 0;
 }
-.songs a {
+.jukebox-select a {
 	color: #000;
 	text-decoration: none;
 	display: block;
 	padding: 0 18px;
 }
-.songs a::before, .songs a::after {
+.jukebox-select a::before, .jukebox-select a::after {
 	content: "";
 	padding: 9px;
 	background-color: #400;
@@ -123,13 +122,13 @@ body {
 	border: 3px #ccc ridge;
 	z-index: 1;
 }
-.songs a::before {left: -8px}
-.songs a::after {right: -8px}
-.songs a:hover::before, .songs a:hover::after, .songs a:focus::before, .songs a:focus::after, .songs a:active::before, .songs a:active::after {
+.jukebox-select a::before {left: -8px}
+.jukebox-select a::after {right: -8px}
+.jukebox-select a:hover::before, .jukebox-select a:hover::after, .jukebox-select a:focus::before, .jukebox-select a:focus::after, .jukebox-select a:active::before, .jukebox-select a:active::after {
 	background-color: #f10;
 	background: radial-gradient(#ff6, #f10 70%);
 }
-.songs i, .songs small {
+.jukebox-select i, .jukebox-select small {
 	font-style:normal;
 	display: block;
 }
@@ -165,7 +164,7 @@ For best experience, use a browser which supports <b>inline frames</b> and <b>in
 <nav><a class=cancelsong href=nosong.html target=currentsong>Cancel current song</a></nav>
 </div>
 <nav class=jukebox-select>
-<ul class=songs>
+<ul>
 <li><a href=a-cup-of-coffee-a-sandwich-and-you.html target=currentsong><i>A Cup of Coffee, a Sandwich, &amp; You</i> <small>(Nick Lucas / 1926)</small></a>
 <li><a href=cuddle-me.html target=currentsong><i>Cuddle Me</i> <small>(Ronnie Gaylord / 1954)</small></a>
 <li><a href=cuddle-up-a-little-closer.html target=currentsong><i>Cuddle Up a Little Closer, Lovey Mine</i> <small>(Kay Armen &amp; The Balladiers / 1943)</small></a>
