@@ -1,7 +1,7 @@
 <!doctype html><html lang=en><meta charset=utf-8>
 <style>video::cue {font-size:16px} body {margin:0} video {display:block;width:100%;height:100%} p, pre {background-color:#fff;color:#000}</style>
 <title>{{page.title}}</title>
-<video autoplay src={{page.slugified}}.mp3 onended="location.href='nosong.html'" poster=jukebox-on.png>
+<video autoplay playsinline src={{page.slugified}}.mp3 onended="location.href='nosong.html'" poster=jukebox-on.png>
 <track default kind=captions src={{page.slugified}}.vtt srclang=en><p>
 Your browser does not support inline video. Instead, you can <a href={{page.slugified}}.mp3>download the song.</a>
 Lyrics follow: <pre>{{content}}</pre></video>
