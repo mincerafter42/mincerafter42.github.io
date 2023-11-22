@@ -31,10 +31,10 @@ https.get(url+'js/comic_settings.js',res=>{
 				rss += '<description>'+entityEscape('<div>');
 				if (page.imageFiles>1) {
 					for (let j=1;j<=page.imageFiles;++j) {
-						rss += entityEscape('<img src="'+entityEscape(url+folder+'/'+image+i+imgPart+j+'.'+ext)+(j==1&&page.altText?'" title="'+entityEscape(page.altText)+'">':'>'));
+						rss += entityEscape('<img src="'+entityEscape(url+folder+'/'+image+i+imgPart+j+'.'+ext)+(j==1&&page.altText?'" title="'+entityEscape(page.altText)+'">':'">'));
 						if (j<page.imageFiles) rss += entityEscape('<br>');
 					}
-				} else rss += entityEscape('<img src="'+entityEscape(url+folder+'/'+image+i+'.'+ext)+(page.altText?'" title="'+entityEscape(page.altText)+'">':'>'));
+				} else rss += entityEscape('<img src="'+entityEscape(url+folder+'/'+image+i+'.'+ext)+(page.altText?'" title="'+entityEscape(page.altText)+'">':'">'));
 				rss += entityEscape('</div>');
 				rss += entityEscape(page.authorNotes||'')
 				rss += '</description>';
