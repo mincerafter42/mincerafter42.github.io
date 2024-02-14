@@ -21,7 +21,7 @@ If a webpage conatins its own content warnings those should take precedence over
   Di, a friendly fellow webring member and cuddle appreciator
 - [Runegod](https://runegod.net/)  
   a cool guy. he makes comic on the world wide web.
-- [Maplestrip's Maple Tree](http://maplestrip.space)  
+- [Maplestrip's Maple Tree](https://maplestrip.space)  
   My friend Maplestrip. We both read the webcomic El Goonish Shive (found in this very list) and have recorded together on a few podcast episodes.
 - [The Mainframe](https://sinclair-speccy.github.io/The-Mainframe/)  
   some fellow lepidopteran appreciators.
